@@ -2,9 +2,6 @@ package com.yapengren.bos.action;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
-
-import javax.servlet.http.HttpSession;
 
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
@@ -12,11 +9,10 @@ import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.yapengren.bos.utils.CheckCodeUtils;
+import com.yapengren.bos.utils.action.BaseAction;
 import com.yapengren.crm.service.impl.Customer;
 import com.yapengren.crm.service.impl.CustomerServiceImpl;
-import com.yapengren.utils.CheckCodeUtils;
-import com.yapengren.utils.SmsUtils;
-import com.yapengren.utils.action.BaseAction;
 
 @Results({
 	@Result(name="toSuccess", type="redirect", location="/signup-success.html"),

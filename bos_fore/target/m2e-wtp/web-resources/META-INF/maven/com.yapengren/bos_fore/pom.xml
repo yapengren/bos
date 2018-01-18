@@ -12,12 +12,12 @@
   <dependencies>
   	<dependency>
   		<groupId>com.yapengren</groupId>
-  		<artifactId>bos-management_utils</artifactId>
+  		<artifactId>bos_management_utils</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
   		<groupId>com.yapengren</groupId>
-  		<artifactId>bos-management_service</artifactId>
+  		<artifactId>bos_management_service</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
