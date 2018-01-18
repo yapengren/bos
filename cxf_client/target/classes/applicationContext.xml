@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:tx="http://www.springframework.org/schema/tx" 
+        xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+        xmlns:jaxws="http://cxf.apache.org/jaxws"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        		http://www.springframework.org/schema/beans/spring-beans.xsd
+        		http://www.springframework.org/schema/tx 
+        		http://www.springframework.org/schema/tx/spring-tx.xsd
+        		http://www.springframework.org/schema/data/jpa 
+				http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+             	http://www.springframework.org/schema/context
+             	http://www.springframework.org/schema/context/spring-context.xsd     
+              	http://www.springframework.org/schema/aop 
+        		http://www.springframework.org/schema/aop/spring-aop.xsd
+        		http://cxf.apache.org/jaxws
+        		http://cxf.apache.org/schemas/jaxws.xsd
+        		">
+	<!-- 配置cxf 客户端 -->
+	<!-- 
+		id: 指定客户端对象名称
+		address：配置ws 的地址
+		serviceClass：客户端接口完整类名
+	 -->
+	<jaxws:client id="echo" address="http://localhost:8080/cxf_server/service/echo01" 
+		serviceClass="com.yapengren.MyService"></jaxws:client>
+	
+</beans>

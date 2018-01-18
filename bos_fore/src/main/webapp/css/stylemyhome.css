@@ -1,0 +1,180 @@
+	b {
+	color: red
+}
+
+.huiyuan,
+.info {
+	overflow: hidden;
+	margin: 15px 0 10px;
+}
+
+.personinfo {
+	background: #f7f7f7;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.personinfo .model {
+	padding-top: 12px;
+}
+
+.model h1 {
+	font-size: 80px;
+}
+
+.personinfo .table>tbody>tr>td {
+	padding: 0;
+	border-top: none
+}
+
+.personinfo .table .num {
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 3px;
+}
+
+.model .btn {
+	font-size: 12px;
+	padding: 0px 7px;
+	border-radius: 12px;
+}
+
+.model .btn-danger {
+	padding: 4px 22px;
+	border-radius: 2px;
+}
+
+.personinfo .jifen {
+	text-align: center;
+}
+
+.activity .panel-default>.panel-heading {
+	background: #eaeaea;
+	border-radius: 0;
+}
+
+.activity .panel-default {
+	border: 0;
+}
+
+.panel-default .panel-title {
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.panel-default .panel-title span {
+	float: right;
+	font-size: 12px;
+	color: #df3033;
+	margin-top: 3px;
+}
+
+.panel-default .panel-body {
+	padding: 18px;
+	background: #f4f4f4;
+	border-radius: 0;
+}
+
+.huiyuan .panel-body ul {
+	padding-left: 20px;
+	color: #666666;
+	font-size: 12px;
+}
+
+.huiyuan .panel-body ul li {
+	line-height: 29px;
+}
+
+.text-left {
+	color: #666;
+	font-weight: bold;
+}
+
+.text-center {
+	border-right: 1px solid #d1d1d1;
+}
+
+.info .tequan {
+	background: #fff3da;
+	color: #704019;
+	font-size: 12px;
+	border: 1px solid #ffce87;
+	padding: 7px;
+}
+
+#orderseek {
+	border-radius: 0;
+	font-size: 12px;
+	width: 50%
+}
+
+.form-inline .btn-danger {
+	border-radius: 0;
+	padding: 6px 25px;
+	margin-left: 16px;
+}
+
+.tequan,
+.seek,
+.order {
+	margin: 15px 0;
+}
+
+.order {
+	overflow: hidden;
+	border: 1px solid #d1d1d1;
+	font-family: "微软雅黑";
+}
+
+.order .left {
+	border-right: 1px solid #d1d1d1;
+	text-align: center
+}
+
+.order .left .btn-danger {
+	border-radius: 0;
+	padding: 6px 40px;
+	margin: 31% 0;
+}
+
+.order .right .bigtitle {
+	background: url(../img/icon/line.png) repeat-x center
+}
+
+.order .right .title {
+	background: #fff;
+	padding: 0 10px 0 0
+}
+
+.order .table>tbody>tr>td {
+	border-top: 0;
+	border-right: 1px dotted #d1d1d1;
+	text-align: center;
+}
+
+.order .noborder {
+	border: none
+}
+
+.model .table-bordered>tbody>tr>td {
+	border-top: none
+}
+
+.table .plus {
+	background: url(../img/icon/suyun/plus.png)no-repeat left top;
+	padding-left: 35px;
+}
+
+.order .table p {
+	color: #999;
+	padding-left: 5px;
+}
+
+.model .btn-inverse {
+	background: #555;
+	color: #fff;
+	font-weight: bold;
+	.model .table>tbody>tr>td {
+		padding: 0
+	}

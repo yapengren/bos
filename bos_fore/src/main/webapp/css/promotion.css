@@ -1,0 +1,10 @@
+.clearfix {
+	clear: both
+}
+
+#promotionresult {
+	overflow: hidden;
+}
+#Pagination {
+	float:right;
+}

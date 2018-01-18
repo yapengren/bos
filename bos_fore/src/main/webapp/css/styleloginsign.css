@@ -1,0 +1,198 @@
+
+.clearfix {
+	clear: both
+}
+em {
+	color: #C00;
+	padding-right: 5px;
+	font-style: normal;
+}
+
+span.error {
+	color: #C00;
+	padding: 0 6px;
+}
+/*login*/
+.loginbox {
+	background: #fff;
+	font-family: "微软雅黑";
+	padding: 2% 0;
+}
+
+.loginbox .form-horizontal {
+	padding: 5px;
+}
+
+
+
+
+
+.logintitle {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.loginnav .navbar-default {
+	margin-bottom: 0;
+	padding: 10px;
+	background: #fff;
+}
+
+.loginnav .navbar-brand {
+	padding: 0
+}
+
+.mainlogin {
+	background: url(../img/show/suyun/loginbg.png) no-repeat;
+	background-position: 0 0;
+}
+
+.loginbox h4 {
+	font-weight: bold;
+	padding-left: 28px;
+}
+
+.loginbox .form-control {
+	border-radius: 0;
+}
+
+.loginbox .btn-danger {
+	padding: 6px 46%;
+	border-radius: 0;
+}
+
+.form-group .control-label {
+	font-weight: normal;
+}
+
+.loginbox .text-right,
+.loginbox .size12 {
+	font-family: "宋体";
+	color: #666;
+	font-size: 12px;
+}
+
+.loginbox .text-right {
+	padding: 15px 0 10px 0;
+}
+
+.mainlogin .container {
+	overflow: hidden;
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+.signup {
+	overflow: hidden;
+	border: 1px solid #D1D1D1;
+	font-family: "微软雅黑";
+}
+
+.signupbox {
+	overflow: hidden;
+	padding: 30px;
+}
+
+
+.signupbox .form-group label {
+	margin-top: 5px;
+}
+
+.signupbox .signbtn .btn-danger {
+	padding: 6px 44%;
+}
+
+.signup .signintro {
+	font-size: 12px;
+	padding: 9% 10%;
+	border-left: 1px solid #d1d1d1;
+}
+
+.signup .redtext {
+	color: red;
+	padding: 15px 0
+}
+
+.signup .introbox {
+	padding: 5% 0;
+}
+
+.headnav {
+	margin: 20px;
+}
+
+.headnav .signnav {
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.signnav .active {
+	background: url(../img/icon/suyun/sign01.png) no-repeat;
+	padding: 9px 15%;
+}
+
+
+.successstyle {
+	background: url(../img/icon/suyun/right.png) no-repeat left center;
+	padding: 10px 5%;
+	color: #0078ff;
+	font-family: "微软雅黑";
+	font-size: 28px;
+}
+
+.success .btn {
+	font-family: "宋体";
+}
+
+footer {
+	padding-top: 2%;
+	font-size: 12px;
+	color: #666;
+}
+
+
+/*validatextarea*/
+
+.fn-vhid {
+	visibility: hidden;
+}
+
+.fn-tinput {
+	width: 240px;
+	height: 30px;
+	line-height: 30px\9;
+	border: #ddd solid 1px;
+	background-color: transparent;
+	padding: 0 6px;
+}
+
+textarea {
+	border: #ddd solid 1px;
+	background-color: transparent;
+	width: 60%
+}
+
+.fn-tinput:focus,
+textarea:focus {
+	border-color: #c00;
+}
+
+.bl-form label {
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-top: 6px;
+	font-weight: normal;
+}
+
+.bl-form .controls label {
+	width: auto;
+}
+
+.bl-form li {
+	margin-top: 20px;
+	overflow: hidden;
+	list-style: none;
+}

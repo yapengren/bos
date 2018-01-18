@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>账户管理</title>
+		<link rel="stylesheet" type="text/css" href="plugins/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link rel="stylesheet" type="text/css" href="css/styleuserinfo.css">
+
+		<script src="plugins/jquery.min.js" type="text/javascript"></script>
+		<script src="plugins/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/nav.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<!--nav-->
+		<div id="headnav">
+			<div class="mainnav">
+				<nav class="nav navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						                    <span class="sr-only">折叠菜单</span>
+						                    <span class="icon-bar"></span>
+						                    <span class="icon-bar"></span>
+						                    <span class="icon-bar"></span>
+			               				</button>
+							<a class="navbar-brand" href="#"><img src="img/icon/logo.png"></a>
+						</div>
+						<div class="collapse navbar-collapse">
+							<ul class="nav navbar-nav navbar-right" id="menu">
+								<li>
+									<a href="index.html" target="_blank">首页</a>
+								</li>
+								<li>
+									<a href="order.html" target="_blank">在线下单</a>
+								</li>
+								<li>
+									<a href="express_manage.html" target="_blank">快件管理</a>
+								</li>
+								<li>
+									<a href="userinfo.html" target="_blank">账户管理</a>
+								</li>
+								<li>
+									<a href="search.html" target="_blank">查询服务</a>
+								</li>
+								<li>
+									<a href="myhome.html" target="_blank">我的主页</a>
+								</li>
+								<li>
+									<a href="login.html" target="_blank">登录</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="userinfo">
+			<div class="container">
+				<div class="col-md-2 tab-title ">
+					<h4 class="accounttitle">账号管理</h4>
+					<ul class="nav nav-tab vertical-tab" role="tablist" id="vtab">
+						<li role="presentation" class="pieceorder  active">
+							<a href="#aa" aria-controls="aa" role="tab" data-toggle="tab">个人信息</a>
+						</li>
+
+						<li role="presentation" class="pieceorder">
+							<a href="#bb" aria-controls="bb" role="tab" data-toggle="tab">地址薄</a>
+						</li>
+						<li role="presentation" class="pieceorder">
+							<a href="#cc" aria-controls="cc" role="tab" data-toggle="tab">账号绑定</a>
+						</li>
+						<li role="presentation" class="pieceorder">
+							<a href="#dd" aria-controls="dd" role="tab" data-toggle="tab">我的积分</a>
+						</li>
+						<li role="presentation" class="pieceorder">
+							<a href="#ee" aria-controls="ee" role="tab" data-toggle="tab">我的优惠券</a>
+						</li>
+
+						<li role="presentation" class="pieceorder">
+							<a href="#ff" aria-controls="ff" role="tab" data-toggle="tab">打印设置</a>
+						</li>
+						<li role="presentation" class="pieceorder">
+							<a href="#gg" aria-controls="gg" role="tab" data-toggle="tab">我的月结卡</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Tab panes -->
+				<div class="col-md-10 tabcontent">
+					<div class="tab-content vertical-tab-content">
+						<!--个人信息-->
+						<div role="tabpanel" class="tab-pane active" id="aa">
+							<div class="areatitle">
+								<h4><span class="title">基本资料</span></h4>
+							</div>
+							<div class="info">
+								<div class="col-md-8">
+									<table class="table ">
+										<tr>
+											<td>姓名：</td>
+											<td>公司：</td>
+										</tr>
+										<tr>
+											<td>生日：</td>
+											<td>部门：</td>
+										</tr>
+										<tr>
+											<td>性别：</td>
+											<td>职位：</td>
+										</tr>
+										<tr>
+											<td>座机：</td>
+											<td>手机：</td>
+										</tr>
+										<tr>
+											<td>Emial：</td>
+											<td>地址：</td>
+										</tr>
+
+									</table>
+								</div>
+								<div class="col-md-4">
+									<p>个人头像：<span class="right"><a href="#">编辑</a></span></p>
+									<div class="text-center">
+										<img src="img/show/photo.png" class="img-responsive" align="我的头像" />
+										<p class="text-center">上传头像</p>
+										<p class="text-center">您需要上传200x200以上且小于1M的 JPG格式的图片
+										</p>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="areatitle clearfix">
+								<h4><span class="title">验证信息</span></h4>
+							</div>
+							<div class="col-md-8">
+								<div class="info">
+									<p>手机号码 15210740955<span class="right"><a href="#">修改</a></span></p>
+									<p>邮箱地址 您尚未绑定油箱<span class="right"><a href="#">立即绑定</a></span></p>
+
+								</div>
+							</div>
+
+							<div class="areatitle clearfix">
+								<h4><span class="title">密码设置</span></h4>
+							</div>
+							<div class="info">
+								<p>
+									<a href="#">修改密码</a>
+								</p>
+								<p>登录后修改您的速运账号密码</p>
+								<p>
+									<a href="#">找回密码</a>
+								</p>
+								<p>如果您忘记了密码，可以通过密保邮箱找回密码。</p>
+							</div>
+						</div>
+						<!--地址薄-->
+						<div role="tabpanel" class="tab-pane" id="bb">
+							<!-- 页面tab -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#home" role="tab" data-toggle="tab">我的地址</a>
+								</li>
+								<li role="presentation">
+									<a href="#profile" role="tab" data-toggle="tab">常用地址</a>
+								</li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content" ng-controller="userInfoCtrl">
+								<div class="fixedbtn">
+									<div class="col-md-4 btnaddress">
+										<button class="btn btn-default">删除</button>
+										<button class="btn btn-default">导出</button>
+										<button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">添加</button>
+
+										<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+														<h4 class="modal-title" id="myModalLabel">添加地址薄</h4>
+													</div>
+													<div class="modal-body">
+														<form class="form-horizontal" role="form">
+
+															<div class="form-group">
+																<label class="col-sm-3 control-label"><b>*</b>　姓名：</label>
+																<div class="col-sm-8">
+																	<input name="username" type="text" class="form-control" placeholder="请输入发件人姓名" ng-model="userInfo.username" required="required">
+																</div>
+															</div>
+															<div class="form-group" id="mobile-group">
+																<label class="col-sm-3 control-label"><b>*</b> 联系方式：</label>
+																<div class="col-sm-8">
+																	<input name="mobile" type="text" class="form-control" placeholder="请输入联系电话" ng-model="userInfo.mobile" required="required">
+																</div>
+															</div>
+															<div class="form-group" id="sendcompany-group">
+																<label class="col-sm-3 control-label"> 寄件公司：</label>
+																<div class="col-sm-8">
+																	<input name="company" type="text" class="form-control" placeholder="请输入寄件公司" ng-model="userInfo.company">
+																</div>
+															</div>
+															<div class="form-group">
+																<label class="col-sm-3 control-label"><b>*</b> 省市区：</label>
+																<div class="col-sm-8">
+																	<input name="province" type="text" class="form-control" placeholder="请填写正确的省市区" ng-model="userInfo.province">
+																</div>
+															</div>
+															<div class="form-group">
+																<label for="inputPassword" class="col-sm-3 control-label"><b>*</b> 详细地址：</label>
+																<div class="col-sm-8">
+																	<input name="address" type="text" class="form-control" placeholder="街道详细（精确到门牌号） " ng-model="userInfo.address" required="required">
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="modal-footer">
+														<div class="form-group">
+															<div class="col-md-offset-2 col-md-10">
+																<button type="button" class="btn btn-default" data-dismiss="modal" ng-click="getFormData()">确定</button>
+
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<!--查询-->
+									<div class="col-md-8">
+										<form class=" form-inline">
+											<div class="form-group">
+												<label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+												<div class="input-group">
+
+													<input type="text" class="form-control" id="exampleInputAmount" placeholder="姓名/电话/地址">
+													<div class="input-group-addon">查询</div>
+												</div>
+											</div>
+
+										</form>
+									</div>
+									<div class="clearfix"></div>
+
+								</div>
+
+								<div role="tabpanel" class="tab-pane fade in active" id="home">
+									<div class="addresstable">
+										<table class="table table-striped table-bordered">
+											<thead>
+												<th><input type="checkbox" />　姓名</th>
+												<th>联系方式</th>
+												<th>公司</th>
+												<th>地址</td>
+
+													<th class="">操作</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td>小王</td>
+													<td>13112589764</td>
+													<td>北京市传智播客</td>
+													<td>中关村软件园</td>
+													<td>
+														<a href="#">设为默认</a>
+													</td>
+												</tr>
+											</tbody>
+
+										</table>
+
+									</div>
+
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="profile">
+
+									<div class="addresstable">
+										<table class="table table-striped">
+											<tr>
+												<td><input type="checkbox" />　姓名</td>
+												<td>联系方式</td>
+												<td>公司</td>
+												<td>地址</td>
+
+												<td class="">操作</td>
+											</tr>
+										</table>
+										<table class="table table-bordered table-striped" id="expresscontent">
+
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--账号绑定-->
+						<div role="tabpanel" class="tab-pane" id="cc">账号绑定</div>
+						<!--我的积分-->
+						<div role="tabpanel" class="tab-pane" id="dd">我的积分</div>
+						<!--我的优惠券-->
+						<div role="tabpanel" class="tab-pane" id="ee">我的优惠券</div>
+						<!--打印设置-->
+						<div role="tabpanel" class="tab-pane" id="ff">打印设置</div>
+						<!--我的月结卡-->
+						<div role="tabpanel" class="tab-pane" id="gg">我的月结卡</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav-bottom"></div>
+		<a href="#0" class="cd-top">Top</a>
+
+	</body>
+
+</html>
