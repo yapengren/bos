@@ -72,4 +72,26 @@ public interface CustomerDao extends JpaRepository<Customer, Integer> {
 	 */  
 	Customer findByEmail(String email);
 
+	/**  
+	 * @Title: active  
+	 * @Description: TODO 账号激活
+	 * @param @param email
+	 * @return void
+	 * @throws  
+	 */  
+	@Modifying
+	@Query("update Customer set type = 1 where email = ?")
+	void active(String email);
+
+	/**  
+	 * @Title: findByEmailAndPassword  
+	 * @Description: TODO 根据邮箱与密码取出客户
+	 * @param @param email
+	 * @param @param password
+	 * @param @return
+	 * @return Customer
+	 * @throws  
+	 */  
+	Customer findByEmailAndPassword(String email, String password);
+
 }

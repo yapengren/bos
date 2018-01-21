@@ -2,32 +2,53 @@ package com.yapengren.bos.action;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import com.yapengren.bos.utils.CheckCodeUtils;
+import com.yapengren.bos.utils.MailUtils;
 import com.yapengren.bos.utils.action.BaseAction;
 import com.yapengren.crm.service.impl.Customer;
 import com.yapengren.crm.service.impl.CustomerServiceImpl;
 
 @Results({
 	@Result(name="toSuccess", type="redirect", location="/signup-success.html"),
-	@Result(name="toRegist", type="redirect", location="/signup.html")
+	@Result(name="toRegist", type="redirect", location="/signup.html"),
+	@Result(name="toLogin", type="redirect", location="/login.html"),
+	@Result(name="error", location="/error.jsp"),
+	@Result(name="toIndex", type="redirect", location="/index.html")
 	})
 public class CustomerAction extends BaseAction<Customer> {
 	
 	@Autowired
 	private CustomerServiceImpl cs;
 	
+	@Autowired
+	private RedisTemplate rt;
+	
 	//发送验证码的原因
 	private String checkCodeType;
 	
 	//接收表单提交的验证码
 	private String checkCode;
+	
+	//接收邮箱激活码
+	private String activeCode;
+	
+	//接收邮箱登录表单图片验证码
+	private String validateCode;
+	
+	//登录方式标识
+	private Integer article;
+	
+	
 	
 	/**  
 	 * @Title: sendCheckCode  
@@ -63,7 +84,7 @@ public class CustomerAction extends BaseAction<Customer> {
 		System.out.println("bos_fore项目CustomerAction测试_注册验证码      " + checkCode);
 		
 		//将验证码存入session
-		ServletActionContext.getRequest().getSession().putValue("checkCode", checkCode);
+		ServletActionContext.getRequest().getSession().setAttribute(model.getTelephone(), checkCode);
 		
 		//向前台发送成功的提示信息
 		map.put("type", "success");
@@ -124,8 +145,22 @@ public class CustomerAction extends BaseAction<Customer> {
 		if (checkCode.equals(checkCodeSession)) {
 			//发送激活邮件
 			//生成激活码
-			//String activeCode = UUID.randomUUID().toString();
+			String activeCode = UUID.randomUUID().toString();
+			
 			//发送激活邮件
+			String subject = "账号激活";    //邮件主题
+			String activeAddress = "http://localhost:8082/bos_fore/CustomerAction_active.action?activeCode=" + activeCode + "&email=" + model.getEmail();    //激活路径
+			String content = "尊敬的用户您好，请在24小时内点击此链接以完成激活<br><a href='"+activeAddress+"'>"+activeAddress+"</a><br><br>激活遇到问题？ 请联系我们 yapeng0828@163.com";    //邮件内容
+			MailUtils.sendMail(subject, content, model.getEmail());
+			
+			//存入redis => 有效1天
+			rt.opsForValue().set(model.getEmail(), activeCode, 1, TimeUnit.DAYS);
+			
+			//指定客户为未激活状态
+			model.setType(0);
+			
+			//调用ws 保存客户
+			cs.save(model);
 			
 			//成功 => 重定向到注册成功页面
 			return "toSuccess";
@@ -133,6 +168,136 @@ public class CustomerAction extends BaseAction<Customer> {
 			//失败 => 重定向到注册页面
 			return "toRegist";
 		}
+	}
+	
+	/**  
+	 * @Title: active  
+	 * @Description: TODO 激活邮箱
+	 * @param @return
+	 * @return String
+	 * @throws  
+	 */  
+	@Action("CustomerAction_active")
+	public String active() {
+		//接收参数中的邮箱 | 激活码
+		String activeCode2 = (String) rt.opsForValue().get(model.getEmail());
+		
+		//根据邮箱从redis 中取出激活码，并移除
+		rt.opsForValue().set(model.getEmail(), "", 1, TimeUnit.MICROSECONDS);
+		
+		//比对激活码是否一致
+		if (activeCode2 == null || !activeCode2.equals(activeCode)) {
+			//不一致 => 转发到错误页面提示，激活码已经过期或者已经激活
+			ServletActionContext.getRequest().setAttribute("msg", "激活码过期或已经激活");
+			return "error";
+		}
+		
+		//一致 => 调用ws 修改激活状态
+		cs.active(model.getEmail());
+		
+		return "toLogin";
+	}
+	
+	/**  
+	 * @Title: login  
+	 * @Description: TODO 登录
+	 * @param @return
+	 * @return String
+	 * @throws  
+	 */  
+	@Action("CustomerAction_login")
+	public String login() {
+		//判断当前登录方式
+		if (article == 0) {
+			//邮箱登录
+			return loginByEmailAndPassword();
+		} else {
+			//手机号登录
+			return loginByTelephone();
+		}
+	}
+
+	/**  
+	 * @Title: loginByTelephone  
+	 * @Description: TODO 手机号登录
+	 * @param @return
+	 * @return String
+	 * @throws  
+	 */  
+	private String loginByTelephone() {
+		//校验验证码 => 取出session 中的验证码
+		String checkCodeSession = (String) ServletActionContext.getRequest().getSession().getAttribute(model.getTelephone());
+		
+		//表单验证码与session 验证码比对
+		if (!checkCode.equals(checkCodeSession)) {
+			//失败 => 提示
+			ServletActionContext.getRequest().setAttribute("msg", "手机验证码错误！");
+			return "error";
+		}
+		
+		//根据手机号获得客户
+		Customer c = cs.findByTelephone(model.getTelephone());
+		
+		if (c == null) {
+			//获取不到 => 请先注册
+			ServletActionContext.getRequest().setAttribute("msg", "手机号未注册！");
+			return "error";
+		}
+		
+		//判断用户是否已经激活
+		if (c.getType() != 1) {
+			//未激活 => 请先激活再登录
+			ServletActionContext.getRequest().setAttribute("msg", "请先激活再登录！");
+			return "error";
+		}
+		
+		//将客户放入session 作为登录标识
+		ServletActionContext.getRequest().getSession().setAttribute("customer", c);
+		
+		//重定向到首页
+		return "toIndex";
+	}
+
+	/**  
+	 * @Title: loginByEmailAndPassword  
+	 * @Description: TODO 邮箱 | 密码登录
+	 * @param @return
+	 * @return String
+	 * @throws  
+	 */  
+	private String loginByEmailAndPassword() {
+		//从session 获取到图片验证码
+		String validateCode2 = (String) ServletActionContext.getRequest().getSession().getAttribute("validateCode");
+		
+		//表单校验码与session 验证码比对
+		if (validateCode2 == null || !validateCode2.equalsIgnoreCase(validateCode)) {
+			//验证码比对失败
+			ServletActionContext.getRequest().setAttribute("msg", "验证码错误！");
+			return "error";
+		}
+		
+		//调用ws 根据账户&密码取出客户对象
+		Customer c = cs.findByEmailAndPassword(model.getEmail(), model.getPassword());
+		
+		//判断用户名密码是否正确
+		if (c == null) {
+			//未取出 => 用户名或密码不正确
+			ServletActionContext.getRequest().setAttribute("msg", "用户名或密码不正确！");
+			return "error";
+		}
+		
+		//判断用户是否已经激活
+		if (c.getType() != 1) {
+			//未激活 => 请先激活再登录
+			ServletActionContext.getRequest().setAttribute("msg", "请先激活再登录！");
+			return "error";
+		}
+		
+		//将客户放入session 作为登录标识
+		ServletActionContext.getRequest().getSession().setAttribute("customer", c);
+		
+		//重定向到首页
+		return "toIndex";
 	}
 
 	public String getCheckCodeType() {
@@ -149,6 +314,30 @@ public class CustomerAction extends BaseAction<Customer> {
 
 	public void setCheckCode(String checkCode) {
 		this.checkCode = checkCode;
+	}
+
+	public String getActiveCode() {
+		return activeCode;
+	}
+
+	public void setActiveCode(String activeCode) {
+		this.activeCode = activeCode;
+	}
+
+	public String getValidateCode() {
+		return validateCode;
+	}
+
+	public void setValidateCode(String validateCode) {
+		this.validateCode = validateCode;
+	}
+
+	public Integer getArticle() {
+		return article;
+	}
+
+	public void setArticle(Integer article) {
+		this.article = article;
 	}
 	
 }

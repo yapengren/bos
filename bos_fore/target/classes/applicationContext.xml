@@ -22,6 +22,42 @@
 	<!-- 开启包扫描 -->
 	<context:component-scan base-package="com.yapengren.bos.action"></context:component-scan>
 	
+	<!-- jedis 连接池配置 -->
+	 <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">  
+	 	<!-- 连接的最大空闲时间 -->
+        <property name="maxIdle" value="300" />       
+        <!-- 连接最长等待时间 --> 
+        <property name="maxWaitMillis" value="3000" />  
+        <!-- 是否测试获得的连接 -->
+        <property name="testOnBorrow" value="true" />  
+    </bean>  
+	
+	<!-- jedis 连接工厂 -->
+	<bean id="redisConnectionFactory"  
+        class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+       	<!-- redis服务器路径 -->
+        <property name="hostName" value="localhost"/>
+        <!-- redis服务器端口号 -->
+        <property name="port" value="6379"/>
+        <!-- 指定连接池配置 -->
+        <property name="poolConfig" ref="poolConfig"/>
+    </bean>  
+        
+    <!-- spring data 提供 redis模板  -->
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+    	<!-- 指定连接工厂 -->
+        <property name="connectionFactory" ref="redisConnectionFactory" /> 
+        <!-- 键的持久化类 -->
+        <property name="keySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />
+        </property>
+        <!-- 值的持久化类 -->
+        <property name="valueSerializer">
+        	<bean class="org.springframework.data.redis.serializer.StringRedisSerializer"> 
+        	</bean>
+        </property> 
+    </bean>  
+	
 	<!-- ======================= -->
 	<!-- 配置cxf 客户端 -->
 	<jaxws:client id="customerService" address="http://localhost:9090/crm/service/customer" 

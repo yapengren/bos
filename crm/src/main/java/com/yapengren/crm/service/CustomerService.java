@@ -15,5 +15,11 @@ public interface CustomerService {
 	Customer findByTelephone(String telephone);
 
 	Customer findByEmail(String email);
+	
+	void save(Customer c);
+	
+	void active(String email);
+	
+	Customer findByEmailAndPassword(String email, String password);
 
 }

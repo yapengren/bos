@@ -24,54 +24,72 @@
 			img.src = "validatecode.jsp?hehe="+new Date();
 		}
 		</script>
-			<script type="text/javascript">
-										//倒计时时间
-										var time = 5;
-										//定时器id,用于结束定时器
-										var intervalID ;
-										//按钮对象
-										var bo ;
-										//参数:获取验证码按钮对象
-										function sendCode(buttonObj){
-											//校验手机号格式是否正确
-											//1 定义正则对象
-											var regExp = new RegExp("^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0,5-9]))\\d{8}$", "g");
-											//2 校验
-											if(!regExp.test($("#telephone").val())){
-												//失败=>提示请输入正确的手机号
-												alert("请输入正确的手机号");
-												return;
-											}
-											//------------------------------------------------------------------
-											//ajax请求后台发送手机验证码短信
-											$.post("CustomerAction_sendCode", { telephone: $("#telephone").val() } );
-											//------------------------------------------------------------------
-											bo = buttonObj;
-											//1.点击按钮后,按钮变灰(禁用).并改变按钮上的文字为60秒后重新发送
-											buttonObj.disabled=true;
-											buttonObj.value=time+"秒后重新发送";
-											//2.设置一个js定时器,每隔一秒触发一次方法
-											intervalID = setInterval(timeCount,1000);
-										}
-										function timeCount(){
-											time = time-1;//让秒数减一.
-											//3.书写触发的方法: 
-												//判断秒数是否大于0
-												if(time > 0){
-													//大于0 = 更新按钮上的文字
-													bo.value=time+"秒后重新发送";
-												}else{
-													//等于0 = 按钮恢复可以点状态,按钮上文字重新变为"获取验证码"
-													bo.disabled=false;
-													bo.value="获取验证码";
-													time=60;
-													//停掉定时器
-													clearInterval(intervalID);
-												}
-											
-										}
-										
-										</script>
+		<script type="text/javascript">
+			function sendCode() {
+				//获得手机号
+				var telephone = $("#telephone").val();
+				var regExp = new RegExp("^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$");
+				
+				//判断手机号是否为空 => 提示先输入手机号再点按钮
+				if (!regExp.test(telephone)) {
+					alert("请输入正确的手机号！");
+					return;
+				}
+				
+				//发送ajax 请求后台发送验证码
+				$.getJSON("./CustomerAction_sendCheckCode.action", {telephone:telephone, checkCodeType:"login"},
+					//判断验证码是否发送成功
+					function(json){
+					  	if (json.type == "error") {
+							//失败
+							alert("手机号码已经被注册！");
+						} else {
+							//成功
+							timeCount();
+						}
+					}
+				);
+			}
+			
+			//倒计时计数
+			var count = 10;
+			
+			//记录定时器id
+			var intervalId = null;
+			
+			//倒计时
+			function timeCount() {
+				//将按钮设置为禁用
+				$("#sendCodeBtn").prop("disabled", true);
+				
+				//先改变一次按钮文字
+				changeText();
+				
+				//每隔一秒改变一次按钮上的文字
+				intervalId = window.setInterval(changeText, 1000);
+			}
+			
+			//改变按钮文字
+			function changeText() {
+				//改变按钮上的文字前，进行判断，判断倒计时数字大于0
+				if (count > 1) {
+					//大于0 => 继续倒计时
+					$("#sendCodeBtn").val(--count + "秒后重新发送");
+				} else {
+					//小于0 => 停止定时器
+					window.clearInterval(intervalId);
+					
+					//按钮设置为可用
+					$("#sendCodeBtn").prop("disabled", false);
+					
+					//数字重置为60
+					count = 10;
+					
+					//改变按钮文字
+					$("#sendCodeBtn").val("获取验证码");
+				}
+			}
+		</script>
 	</head>
 
 	<body>
@@ -95,7 +113,7 @@
 				<div class="container">
 					<div class="col-md-4 col-md-offset-7 loginbox">
 						<h4>用户登录</h4>
-						<form class="form-horizontal" name="userForm" id="login" method="post"  action="CustomerAction_login">
+						<form class="form-horizontal" name="userForm" id="login" method="post"  action="./CustomerAction_login">
 							<div class="form-group">
 								<label class="col-sm-3 control-label">登录方式</label>
 								<div class="col-sm-7">
@@ -127,7 +145,7 @@
 										<input type="text" class="form-control" id="inputaccount" name="validateCode" placeholder="请输入验证码">
 									</div>
 									<div class="col-sm-3">
-										<img src="validatecode.jsp" onclick="changeCode(this);" >
+										<img src="./validatecode.jsp" onclick="changeCode(this);" >
 									</div>
 								</div>
 								<div class="form-group">
@@ -154,7 +172,7 @@
 										<input type="text" name="checkCode" class="form-control" id="inputaccount" placeholder="验证码">
 									</div>
 									<div class="col-sm-3">
-										<input type="button"  onclick="sendCode(this)" class="btn btn-default" value="获取验证码">
+										<input type="button" id="sendCodeBtn" onclick="sendCode()" class="btn btn-default" value="获取验证码">
 									</div>
 								</div>
 
@@ -175,7 +193,7 @@
 			<footer>
 				<section class="copyright size12">
 					<div class="container">
-						<p class="text-center">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 </p>
+						<p class="text-center">地址：XXXXX </p>
 						<p class="text-center">京ICP备08001421号京公网安备110108007702</p>
 					</div>
 				</section>

@@ -89,5 +89,40 @@ public class CustomerServiceImpl implements CustomerService {
 	public Customer findByEmail(String email) {
 		return cd.findByEmail(email);
 	}
+
+	/* 
+	 * Title: save 
+	 * Description: 保存客户信息
+	 * @param c  
+	 * @see com.yapengren.crm.service.CustomerService#save(com.yapengren.crm.domain.Customer)  
+	 */  
+	@Override
+	public void save(Customer c) {
+		cd.save(c);
+	}
+
+	/* 
+	 * Title: active 
+	 * Description: 账号激活
+	 * @param email  
+	 * @see com.yapengren.crm.service.CustomerService#active(java.lang.String)  
+	 */  
+	@Override
+	public void active(String email) {
+		cd.active(email);
+	}
+
+	/* 
+	 * Title: findByEmailAndPassword 
+	 * Description: 根据邮箱与密码取出客户
+	 * @param email
+	 * @param password
+	 * @return  
+	 * @see com.yapengren.crm.service.CustomerService#findByEmailAndPassword(java.lang.String, java.lang.String)  
+	 */  
+	@Override
+	public Customer findByEmailAndPassword(String email, String password) {
+		return cd.findByEmailAndPassword(email, password);
+	}
 	
 }
