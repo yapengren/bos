@@ -36,8 +36,10 @@ public class ObjectFactory {
     private final static QName _FindByTelephoneResponse_QNAME = new QName("http://impl.service.crm.yapengren.com/", "findByTelephoneResponse");
     private final static QName _GetLinkedCustomers_QNAME = new QName("http://impl.service.crm.yapengren.com/", "getLinkedCustomers");
     private final static QName _FixedAreaLinkCustomersResponse_QNAME = new QName("http://impl.service.crm.yapengren.com/", "fixedAreaLinkCustomersResponse");
+    private final static QName _FindByAddress_QNAME = new QName("http://impl.service.crm.yapengren.com/", "findByAddress");
     private final static QName _FindByEmailResponse_QNAME = new QName("http://impl.service.crm.yapengren.com/", "findByEmailResponse");
     private final static QName _Active_QNAME = new QName("http://impl.service.crm.yapengren.com/", "active");
+    private final static QName _FindByAddressResponse_QNAME = new QName("http://impl.service.crm.yapengren.com/", "findByAddressResponse");
     private final static QName _Save_QNAME = new QName("http://impl.service.crm.yapengren.com/", "save");
     private final static QName _ActiveResponse_QNAME = new QName("http://impl.service.crm.yapengren.com/", "activeResponse");
 
@@ -105,11 +107,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link FindByAddressResponse }
+     * 
+     */
+    public FindByAddressResponse createFindByAddressResponse() {
+        return new FindByAddressResponse();
+    }
+
+    /**
      * Create an instance of {@link ActiveResponse }
      * 
      */
     public ActiveResponse createActiveResponse() {
         return new ActiveResponse();
+    }
+
+    /**
+     * Create an instance of {@link FindByAddress }
+     * 
+     */
+    public FindByAddress createFindByAddress() {
+        return new FindByAddress();
     }
 
     /**
@@ -293,6 +311,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link FindByAddress }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://impl.service.crm.yapengren.com/", name = "findByAddress")
+    public JAXBElement<FindByAddress> createFindByAddress(FindByAddress value) {
+        return new JAXBElement<FindByAddress>(_FindByAddress_QNAME, FindByAddress.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link FindByEmailResponse }{@code >}}
      * 
      */
@@ -308,6 +335,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://impl.service.crm.yapengren.com/", name = "active")
     public JAXBElement<Active> createActive(Active value) {
         return new JAXBElement<Active>(_Active_QNAME, Active.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link FindByAddressResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://impl.service.crm.yapengren.com/", name = "findByAddressResponse")
+    public JAXBElement<FindByAddressResponse> createFindByAddressResponse(FindByAddressResponse value) {
+        return new JAXBElement<FindByAddressResponse>(_FindByAddressResponse_QNAME, FindByAddressResponse.class, null, value);
     }
 
     /**

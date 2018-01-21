@@ -12,5 +12,7 @@ public interface AreaDao extends JpaRepository<Area, String> {
 	
 	@Query("from Area where citycode like ? or shortcode like ? ")
 	List<Area> findByCondition(String q1, String q2);
+
+	Area findByProvinceAndCityAndDistrict(String province, String city, String district);
 	
 }

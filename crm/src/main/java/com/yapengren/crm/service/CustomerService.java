@@ -21,5 +21,7 @@ public interface CustomerService {
 	void active(String email);
 	
 	Customer findByEmailAndPassword(String email, String password);
+	
+	Customer findByAddress(String address);
 
 }

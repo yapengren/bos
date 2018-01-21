@@ -60,6 +60,20 @@ public interface CustomerServiceImpl {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "findByAddress", targetNamespace = "http://impl.service.crm.yapengren.com/", className = "com.yapengren.crm.service.impl.FindByAddress")
+    @ResponseWrapper(localName = "findByAddressResponse", targetNamespace = "http://impl.service.crm.yapengren.com/", className = "com.yapengren.crm.service.impl.FindByAddressResponse")
+    public Customer findByAddress(
+        @WebParam(name = "arg0", targetNamespace = "")
+        String arg0);
+
+    /**
+     * 
+     * @param arg0
+     * @return
+     *     returns com.yapengren.crm.service.impl.Customer
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "findByEmail", targetNamespace = "http://impl.service.crm.yapengren.com/", className = "com.yapengren.crm.service.impl.FindByEmail")
     @ResponseWrapper(localName = "findByEmailResponse", targetNamespace = "http://impl.service.crm.yapengren.com/", className = "com.yapengren.crm.service.impl.FindByEmailResponse")
     public Customer findByEmail(

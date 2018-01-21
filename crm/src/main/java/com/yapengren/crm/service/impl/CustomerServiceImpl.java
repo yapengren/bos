@@ -124,5 +124,17 @@ public class CustomerServiceImpl implements CustomerService {
 	public Customer findByEmailAndPassword(String email, String password) {
 		return cd.findByEmailAndPassword(email, password);
 	}
+
+	/* 
+	 * Title: findByAddress 
+	 * Description: 根据详细地址找客户
+	 * @param address
+	 * @return  
+	 * @see com.yapengren.crm.service.CustomerService#findByAddress(java.lang.String)  
+	 */  
+	@Override
+	public Customer findByAddress(String address) {
+		return cd.findByAddress(address);
+	}
 	
 }

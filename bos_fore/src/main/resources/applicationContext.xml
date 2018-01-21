@@ -62,4 +62,8 @@
 	<!-- 配置cxf 客户端 -->
 	<jaxws:client id="customerService" address="http://localhost:9090/crm/service/customer" 
 		serviceClass="com.yapengren.crm.service.impl.CustomerServiceImpl"></jaxws:client>
+		
+	<!-- 注册bos 后台webService 客户端 -->
+	<jaxws:client id="orderService" address="http://localhost:8080/bos_management_web/service/order" 
+		serviceClass="com.yapengren.bos.service.take_delivery.impl.OrderServiceImpl"></jaxws:client>
 </beans>

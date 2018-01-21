@@ -94,4 +94,14 @@ public interface CustomerDao extends JpaRepository<Customer, Integer> {
 	 */  
 	Customer findByEmailAndPassword(String email, String password);
 
+	/**  
+	 * @Title: findByAddress  
+	 * @Description: TODO 根据详细地址查询客户
+	 * @param @param address
+	 * @param @return
+	 * @return Customer
+	 * @throws  
+	 */  
+	Customer findByAddress(String address);
+
 }
