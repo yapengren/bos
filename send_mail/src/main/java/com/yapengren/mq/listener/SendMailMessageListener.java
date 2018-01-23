@@ -11,8 +11,6 @@ import javax.jms.MessageListener;
 @Component("sendMileMessageListener")
 public class SendMailMessageListener implements MessageListener {
 
-    private String string;
-
     @Override
     public void onMessage(Message message) {
         //强转为map 消息

@@ -1,6 +1,7 @@
 package com.yapengren.bos.action;
 
 import com.yapengren.bos.utils.CheckCodeUtils;
+import com.yapengren.bos.utils.MailUtils;
 import com.yapengren.bos.utils.action.BaseAction;
 import com.yapengren.crm.service.impl.Customer;
 import com.yapengren.crm.service.impl.CustomerServiceImpl;
@@ -11,12 +12,7 @@ import org.apache.struts2.convention.annotation.Results;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.jms.core.MessageCreator;
 
-import javax.jms.JMSException;
-import javax.jms.MapMessage;
-import javax.jms.Message;
-import javax.jms.Session;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -156,9 +152,11 @@ public class CustomerAction extends BaseAction<Customer> {
 			String subject = "账号激活";    //邮件主题
 			String activeAddress = "http://localhost:8082/bos_fore/CustomerAction_active.action?activeCode=" + activeCode + "&email=" + model.getEmail();    //激活路径
 			String content = "尊敬的用户您好，请在24小时内点击此链接以完成激活<br><a href='"+activeAddress+"'>"+activeAddress+"</a><br><br>激活遇到问题？ 请联系我们 yapeng0828@163.com";    //邮件内容
-			//MailUtils.sendMail(subject, content, model.getEmail());
+			MailUtils.sendMail(subject, content, model.getEmail());
 
             //发送消息
+
+            /*
             jt.send("bos_fore.mail", new MessageCreator() {
 
                 @Override
@@ -173,6 +171,7 @@ public class CustomerAction extends BaseAction<Customer> {
                     return message;
                 }
             });
+            */
 			
 			//存入redis => 有效1天
 			rt.opsForValue().set(model.getEmail(), activeCode, 1, TimeUnit.DAYS);

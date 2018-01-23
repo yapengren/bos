@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa" xmlns:task="http://www.springframework.org/schema/task"
        xmlns:amq="http://activemq.apache.org/schema/core"
        xmlns:jms="http://www.springframework.org/schema/jms"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
-
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd
+		http://www.springframework.org/schema/data/jpa
+		http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
 		http://www.springframework.org/schema/jms
         http://www.springframework.org/schema/jms/spring-jms.xsd
 		http://activemq.apache.org/schema/core
         http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd">
 
     <!-- 扫描包 -->
-    <context:component-scan base-package="com.yapengren"/>
+    <context:component-scan base-package="com.yapengren" />
 
     <!-- ActiveMQ 连接工厂 -->
     <!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供-->
     <!-- 如果连接网络：tcp://ip:61616；未连接网络：tcp://localhost:61616 以及用户名，密码-->
-    <amq:connectionFactory id="amqConnectionFactory"
-                           brokerURL="tcp://localhost:61616" userName="admin" password="admin"/>
+    <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616" />
+    </bean>
 
     <!-- Spring Caching连接工厂 -->
     <!-- Spring用于管理真正的ConnectionFactory的ConnectionFactory -->
@@ -29,10 +37,11 @@
         <!-- 同上，同理 -->
         <!-- <constructor-arg ref="amqConnectionFactory" /> -->
         <!-- Session缓存数量 -->
-        <property name="sessionCacheSize" value="100"/>
+        <property name="sessionCacheSize" value="100" />
     </bean>
 
-    <!-- ##################消费者配置####################################################################################### -->
+
+    <!-- ##################消费者配置############################ -->
     <!-- 定义Queue监听器 -->
     <jms:listener-container destination-type="queue"
                             container-type="default"
