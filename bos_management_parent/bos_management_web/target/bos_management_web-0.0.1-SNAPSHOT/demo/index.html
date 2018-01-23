@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" href="../js/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../js/easyui/themes/icon.css">
+	<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../js/easyui/jquery.easyui.min.js"></script>
+	
+	<link rel="stylesheet" href="../js/ztree/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="../js/ztree/jquery.ztree.all-3.5.js"></script>
+	<script type="text/javascript">
+		//打开一个新的tab
+		function addTab(title,url){
+			//判断当前的tab是否已经打开过
+			var $tab = $('#tt').tabs('getTab',title);  
+			if($tab){
+			//已经打开=>选中已经打开的tab
+				$('#tt').tabs('select',title); 
+			}else{
+			//未打开=>打开新的tab
+			$('#tt').tabs('add',{ 
+				title:title, //标题
+				content:"<iframe src='"+url+"' width='99.5%' height='98.5%' ></iframe>", //内容
+				closable:true,  //是否显示关闭按钮
+				tools:[{  //显示可点击工具栏
+					iconCls:'icon-reload', //tab上的工具图标
+					handler : function(){  //点击后的处理事件
+						//获得当前被选中的tab
+						var selectedTab = $('#tt').tabs('getSelected');  
+						//刷新tab
+						$('#tt').tabs('update', {  //刷新
+						    tab: selectedTab,  	
+						    options: {}  
+						});  
+				} 
+				}] 
+				}); 
+			}
+		}
+	</script>
+		<SCRIPT type="text/javascript">
+		//指定ztree属性
+		var setting = {
+			data: {
+				simpleData: { //是否使用简单类型数据构造ztree
+					enable: true
+				}
+			},
+			callback: { //为ztree添加点击事件
+				onClick: onClick
+			}
+		
+		};
+		//点击事件处理函数
+		//treeNode:当前点击的节点数据(json对象)
+		function onClick(event, treeId, treeNode, clickFlag) {
+			if(!treeNode.page){//判断是否为父节点=>是,返回,什么也不做
+				return;
+			}
+			addTab(treeNode.name,"../"+treeNode.page);
+		}		
+		//页面载入->构造ztree
+		$(document).ready(function(){
+			//ajax请求menu.json
+			$.post("../data/menu.json", {},
+					   function(zNodes){
+							//将返回的简单json构造为ztree
+							$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+			 		   }, "json");
+		});
+
+	</SCRIPT>
+</head>
+<body>
+	<div class="easyui-layout" fit="true" >
+		<div data-options="region:'north'" style="height:50px"  border="false"></div>
+		<div data-options="region:'south',split:true" style="height:50px;"></div>
+		<div data-options="region:'west',split:true" title="菜单导航" style="width:200px;">
+			<div class="easyui-accordion" fit="true" border="false" >
+				<div title="基本功能" data-options="iconCls:'icon-mini-add'" 
+															style="overflow:auto;padding:10px;">
+					<ul id="treeDemo" class="ztree"></ul>							
+				</div>
+				<div title="系统管理" data-options="iconCls:'icon-mini-add'" style="padding:10px;">
+				</div>
+			</div>
+		</div>
+		<div data-options="region:'center'">
+			<div class="easyui-tabs" fit="true"  border="false" id="tt">
+				<div title="About" style="padding:10px">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

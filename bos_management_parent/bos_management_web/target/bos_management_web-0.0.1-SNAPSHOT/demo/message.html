@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>消息窗口</title>
+<link rel="stylesheet" type="text/css"
+	href="../js/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css"
+	href="../js/easyui/themes/icon.css">
+<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="../js/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript">
+	function fn1() {
+		$.messager.show({
+			title : '我的消息',
+			msg : '消息将在5秒后关闭。',
+			timeout : 5000,
+			showType : 'slide'
+		});
+	}
+
+	function fn2() {
+		$.messager.alert('我的消息','这是一个提示信息！','info');
+	}
+
+	function fn3() {
+		$.messager.confirm('确认对话框', '您想要退出该系统吗？', function(r){
+			if (r){
+			    alert("点击确认按钮");
+			} else {
+				alert("点击取消按钮");
+			}
+		});
+	}
+	
+	function fn4() {
+		$.messager.prompt('提示信息', '请输入你的姓名：', function(r){
+			if (r){
+				alert('你的姓名是：' + r);
+			}
+		});
+	}
+</script>
+</head>
+<body>
+	<h6>在屏幕右下角显示一条消息窗口</h6><br>
+	<input type="button" value="弹出消息1" onclick="fn1();"><br>
+	<h6>显示警告窗口</h6>
+	<input type="button" value="弹出消息2" onclick="fn2();"><br>
+	<h6>显示一个包含“确定”和“取消”按钮的确认消息窗口</h6>
+	<input type="button" value="弹出消息3" onclick="fn3();"><br>
+	<h6>显示一个用户可以输入文本的并且带“确定”和“取消”按钮的消息窗体</h6>
+	<input type="button" value="弹出消息4" onclick="fn4();"><br>
+	
+</body>
+</html>

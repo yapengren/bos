@@ -6,6 +6,8 @@
         xmlns:tx="http://www.springframework.org/schema/tx" 
         xmlns:jpa="http://www.springframework.org/schema/data/jpa"
         xmlns:jaxws="http://cxf.apache.org/jaxws"
+        xmlns:amq="http://activemq.apache.org/schema/core"
+		xmlns:jms="http://www.springframework.org/schema/jms"
         xsi:schemaLocation="http://www.springframework.org/schema/beans 
         		http://www.springframework.org/schema/beans/spring-beans.xsd
         		http://www.springframework.org/schema/tx 
@@ -17,7 +19,11 @@
               	http://www.springframework.org/schema/aop 
         		http://www.springframework.org/schema/aop/spring-aop.xsd
         		http://cxf.apache.org/jaxws 
-				http://cxf.apache.org/schemas/jaxws.xsd">
+				http://cxf.apache.org/schemas/jaxws.xsd
+				http://www.springframework.org/schema/jms
+		        http://www.springframework.org/schema/jms/spring-jms.xsd
+				http://activemq.apache.org/schema/core
+		        http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd">
 	
 	<!-- 开启包扫描 -->
 	<context:component-scan base-package="com.yapengren.bos.action"></context:component-scan>
@@ -66,4 +72,29 @@
 	<!-- 注册bos 后台webService 客户端 -->
 	<jaxws:client id="orderService" address="http://localhost:8080/bos_management_web/service/order" 
 		serviceClass="com.yapengren.bos.service.take_delivery.impl.OrderServiceImpl"></jaxws:client>
+	<!-- ======================= -->
+	
+	<!-- ActiveMQ 连接工厂 -->
+	<!-- 真正可以产生Connection 的ConnectionFactory，由对应的JMS 服务厂商提供 -->
+    <amq:connectionFactory id="amqConnectionFactory"
+        brokerURL="tcp://localhost:61616" userName="admin" password="admin" />
+
+    <!-- Spring Caching 连接工厂 -->
+    <!-- Spring 用于管理真正的ConnectionFactory 的ConnectionFactory -->
+    <bean id="connectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
+        <!-- 目标ConnectionFactory 对应真实的可以产生JMS Connection 的ConnectionFactory -->
+        <property name="targetConnectionFactory" ref="amqConnectionFactory"></property>
+        <!-- 同上，同理-->
+        <!-- <constructor-arg ref="amqConnectionFactory" /> -->
+        <!-- Session 缓存数量-->
+        <property name="sessionCacheSize" value="100" />
+    </bean>
+
+    <!-- 定义JMSTemplate 的Queue类型-->
+    <bean id="jmsQueueTemplete" class="org.springframework.jms.core.JmsTemplate">
+        <!--这个connectionFactory 对应的是我们定义的Spring 提供的那个connectionFactory 对象-->
+        <property name="connectionFactory" ref="connectionFactory"></property>
+        <!--非pub/sub 模型（发布订阅），即队列模式-->
+        <property name="pubSubDomain" value="false" />
+    </bean>
 </beans>

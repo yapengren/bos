@@ -1,0 +1,26 @@
+.form-group label{font-weight: normal;
+    font-family: "微软雅黑";}
+.modal-content .modal-body{margin:0 20px;}
+.right{float:right}
+.userinfo{ padding: 2%;}
+.input-group .input-group-addon{border-radius: 0;}
+.tab-title .accounttitle{background: #eaeaea;
+    margin: 0;    
+    padding: 8px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;}
+
+.tab-content .table>tbody>tr>td,.tab-content .table>tbody>tr>th,.tab-content .table>tfoot>tr>td,.tab-content .table>tfoot>tr>th,.tab-content .table>thead>tr>td,.tab-content .table>thead>tr>th{
+	border-top:none
+}
+.tab-content .fixedbtn{padding:15px;}
+.tab-content .fixedbtn .btn{border-radius: 0;padding: 6px 20px;
+    margin: 0 6px;}
+.tab-content .col-md-8 form{float:right}
+.tabcontent .info{overflow: hidden;padding: 2% 3%;font-size:12px}
+.tabcontent .info p{padding:5px;}
+
+.addresstable{padding: 15px 0 0;}
+#my .form-horizontal{padding-top:20px;}

@@ -18,6 +18,7 @@
         		http://www.springframework.org/schema/aop/spring-aop.xsd
         		http://cxf.apache.org/jaxws 
 				http://cxf.apache.org/schemas/jaxws.xsd">
+
     <!-- 配置连接池 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />

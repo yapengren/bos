@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../bos_fore/bos_fore.iml" filepath="$PROJECT_DIR$/../bos_fore/bos_fore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/bos_management_dao.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/bos_management_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/bos_management_domain.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_domain/bos_management_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_parent.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/bos_management_service.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_service/bos_management_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_utils/bos_management_utils.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_utils/bos_management_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/bos_management_web.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_web/bos_management_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_parent.iml" filepath="$PROJECT_DIR$/common_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crm/crm.iml" filepath="$PROJECT_DIR$/../crm/crm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../send_mail/send_mail.iml" filepath="$PROJECT_DIR$/../send_mail/send_mail.iml" />
+    </modules>
+  </component>
+</project>

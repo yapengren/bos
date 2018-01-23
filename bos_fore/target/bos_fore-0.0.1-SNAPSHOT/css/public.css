@@ -1,0 +1,38 @@
+.clearfix{clear:both}
+b{color: red;}
+#headnav {
+    box-shadow: 8px 13px 16px -8px #e9e8e8;
+}
+.form-group .form-control{border-radius: 0;}
+.areatitle{overflow: hidden;font-family: "微软雅黑";}
+.areatitle h2,.areatitle h4{background: url(../img/icon/line.png) repeat-x center center;}
+.areatitle .title{ background-color: #fff;padding: 0 10px;}
+.partline{height:2px;background: url(../img/icon/partline.png) repeat-x;    padding: 7px 0;}
+
+
+
+
+/*vertical-table*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border: 0;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+    background: #eaeaea;
+    color: #df3033;}
+.express{padding:30px 0 }
+
+.container .tab-title{background:#F4F4F4;padding: 0;}
+.tab-title .nav>li{font-size:12px;}
+.tab-title .nav>li>a{color:#666}
+.vertical-tab > li.active > a, .vertical-tab > li.active > a:focus{color:red}
+
+
+
+.tab-title .nav>li.allmanages,.tab-title .nav>li.orderrecord{font-family: "微软雅黑";font-weight: bold;font-size:14px;}
+.tab-title .nav>li.allmanages{background: #eaeaea;}
+
+
+
+.vertical-tab .input-group .input-group-addon{border-radius: 0;background: #df3033;
+    color: #fff;
+    padding: 6px 20px;}
+.tools .choose{text-align: right;line-height: 45px;font-size: 12px;}

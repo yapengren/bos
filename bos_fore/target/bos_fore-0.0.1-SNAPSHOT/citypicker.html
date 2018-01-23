@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="js/citypicker/css/city-picker.css">
+
+		<script src="plugins/jquery.min.js" type="text/javascript"></script>
+		<script src="js/citypicker/js/city-picker.data.min.js" type="text/javascript"></script>
+		<script src="js/citypicker/js/city-picker.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(function(){
+		//使用js初始化citypicker三级联动
+		//$("#city-picker1").citypicker();
+		//初始化并指定默认选中的省市区
+		$("#city-picker1").citypicker({
+			  province: "江苏省",
+			  city: "常州市",
+			  district: "溧阳市"
+			});
+	})
+	//充值citypicker
+	function resetCity(){
+		$("#city-picker1").citypicker('reset');
+    };
+	</script>
+</head>
+<body>
+	<!-- 通过data-toggle="city-picker"属性初始化 -->
+	<div style="position: relative;"><!-- container -->
+	  <input readonly type="text" data-toggle="city-picker" placeholder="点击从下拉面板中选择省/市/区">
+	</div>
+	<hr>
+	<!-- value="北京市/北京市/海淀区"属性指定默认选中的省市区  -->
+	<div style="position: relative;"><!-- container -->
+	  <input readonly type="text" data-toggle="city-picker" value="北京市/北京市/海淀区">
+	</div>
+	<hr>
+	<!-- 通过js初始化 -->
+	<div style="position: relative;"><!-- container -->
+	  <input id="city-picker1" readonly type="text">
+	</div>
+	<input type="button" value="reset" onclick="resetCity();">
+</body>
+</html>

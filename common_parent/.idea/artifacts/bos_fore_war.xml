@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bos_fore:war">
+    <output-path>$PROJECT_DIR$/../bos_fore/target</output-path>
+    <root id="archive" name="bos_fore-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bos_fore:war exploded" />
+    </root>
+  </artifact>
+</component>

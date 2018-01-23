@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bos_management_web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0d7cb9c-c8a5-4de6-b19f-f2225f1386bf" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_management_parent/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_management_parent/bos_management_utils/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_management_parent/bos_management_service/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_management_parent/bos_management_web/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_management_parent/bos_management_domain/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/target/" />
+    <ignored path="$PROJECT_DIR$/../bos_fore/target/" />
+    <ignored path="$PROJECT_DIR$/../crm/target/" />
+    <ignored path="$PROJECT_DIR$/../send_mail/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.129.129" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.129.129" type="feb32156:DbDataSourceImpl" />
+        <item name="BOS_YAPENGREN: schema" type="ac44c5e0:OracleImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cxf_crm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cxf_crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cxf_crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cxf_crm: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="common_parent">
+      <favorite_root url="javax.jms.Session javax.jms.Message createMessage()" type="method" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.MethodSmartPointerNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>customeraction_regist</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Develop\workspace_items1\crm</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8ed5cd42-3df2-4d04-9b8e-b90052ddc1a2/console.sql" />
+        <option value="$PROJECT_DIR$/../bos_fore/src/main/resources/applicationContext.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../bos_fore/src/main/java/com/yapengren/bos/action/CustomerAction.java" />
+        <option value="$PROJECT_DIR$/../send_mail/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../send_mail/pom.xml" />
+        <option value="$PROJECT_DIR$/../send_mail/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../send_mail/src/main/java/com/yapengren/mq/listener/SendMailMessageListener.java" />
+        <option value="$PROJECT_DIR$/../send_mail/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Software/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Software\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="565" />
+    <option name="y" value="10" />
+    <option name="width" value="1358" />
+    <option name="height" value="984" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="common_parent" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bos_fore" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bos_management_dao" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="bos_fore" type="cbb8eebc:String" user="bos_fore" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="bos_fore" type="cbb8eebc:String" user="bos_fore" />
+              <item name="D:\Develop\workspace_items1\bos_fore" type="cbb8eebc:String" user="D:\Develop\workspace_items1\bos_fore" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="bos_fore" type="cbb8eebc:String" user="bos_fore" />
+              <item name="D:\Develop\workspace_items1\bos_fore" type="cbb8eebc:String" user="D:\Develop\workspace_items1\bos_fore" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle&#10;MySQL" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40427807" />
+    <property name="settings.editor.splitter.proportion" value="0.29700273" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Develop\workspace_items1\send_mail\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.bos_management">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="bos_fore" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="bos_fore" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="bos_fore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_common_parent_3" />
+        <option name="JNDI_PORT" value="1101" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63306" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="60435" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bos_fore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="bos_management" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="bos_management" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="bos_management_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_common_parent" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62323" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="60394" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bos_management_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="crm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="crm" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="bos_fore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="send_mail:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_common_parent_2" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63219" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="60393" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bos_fore:war exploded" />
+          <artifact name="send_mail:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.bos_management" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.crm" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.bos_fore" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\yy404\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0d7cb9c-c8a5-4de6-b19f-f2225f1386bf" name="Default" comment="" />
+      <created>1516601476772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516601476772</updated>
+      <workItem from="1516601482194" duration="8592000" />
+      <workItem from="1516612324165" duration="6883000" />
+      <workItem from="1516622232839" duration="8635000" />
+      <workItem from="1516635384702" duration="1773000" />
+      <workItem from="1516637506280" duration="4775000" />
+      <workItem from="1516642566170" duration="1194000" />
+      <workItem from="1516643806082" duration="2056000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33908000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="565" y="10" width="1358" height="984" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31424937" sideWeight="0.49688473" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72391856" sideWeight="0.5046729" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34890965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4058524" sideWeight="0.49532712" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30177516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2897196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1170" y="488" width="170" height="47" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24844237" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326972" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952381" sideWeight="0.49785638" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738096" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3123053" sideWeight="0.48394004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36449704" sideWeight="0.5168142" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3123053" sideWeight="0.51605994" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21543409" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35384616" sideWeight="0.5107143" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976437" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34910122" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26393443" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19495799" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.49785638" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344538" sideWeight="0.50864196" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40352505" sideWeight="0.491358" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21543409" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2581967" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/java/com/yapengren/crm/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/java/com/yapengren/crm/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/java/com/yapengren/crm/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/java/com/yapengren/bos/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.yapengren:common_parent:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.yapengren:common_parent:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.yapengren:common_parent:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/commons-beanutils:commons-beanutils:jar:1.8.3</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.guava:guava:jar:r09</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject.extensions:guice-multibindings:jar:3.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE/org.springframework:spring-core:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE/org.springframework:spring-beans:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-orm:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-context:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-aop:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-tx:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
+            <node x="" y="">org.apache.activemq:activemq-all:jar:5.2.0</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.24</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:5.0.7.Final</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">redis.clients:jedis:jar:2.6.2</node>
+            <node x="" y="">redis.clients:jedis:jar:2.6.2/org.apache.commons:commons-pool2:jar:2.0</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-tx:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-aop:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-context-support:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-core:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-context:jar:4.0.7.RELEASE</node>
+            <node x="" y="">com.oracle:ojdbc14:jar:10.2.0.1.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi-ooxml-schemas:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi-ooxml-schemas:jar:3.11/org.apache.xmlbeans:xmlbeans:jar:2.6.0</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/xml-resolver:xml-resolver:jar:1.2</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.apache.ws.xmlschema:xmlschema-core:jar:2.1.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1/wsdl4j:wsdl4j:jar:1.6.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-impl:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-core:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1/org.apache.neethi:neethi:jar:3.0.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-transports-http:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/javax.ws.rs:javax.ws.rs-api:jar:2.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-rs-client:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-rs-extension-providers:jar:3.0.1</node>
+            <node x="" y="">org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.1.37</node>
+            <node x="" y="">com.colobu:fastjson-jaxrs-json-provider:jar:0.3.1</node>
+            <node x="" y="">com.colobu:fastjson-jaxrs-json-provider:jar:0.3.1/com.alibaba:fastjson:jar:1.2.7</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="" y="">com.belerweb:pinyin4j:jar:2.5.0</node>
+            <node x="" y="">javax.mail:mail:jar:1.4</node>
+            <node x="" y="">javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.11</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.11/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.1/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.1/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:3.2.9</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.0.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2166545056548705" x="4924.0" y="780.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-rt-frontend-jaxws/3.0.1/cxf-rt-frontend-jaxws-3.0.1.jar!/schemas/jaxws.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a8526f8a-3d91-4147-b3df-a254e1330da7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ed5cd42-3df2-4d04-9b8e-b90052ddc1a2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-rt-transports-http/3.0.1/cxf-rt-transports-http-3.0.1-sources.jar!/org/apache/cxf/transport/servlet/CXFServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/4.2.4.RELEASE/spring-jms-4.2.4.RELEASE.jar!/org/springframework/jms/config/spring-jms-4.2.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/bos_fore.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1485">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="62" column="90" lean-forward="false" selection-start-line="62" selection-start-column="90" selection-end-line="62" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/src/main/java/com/yapengren/mq/listener/SendMailMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/java/com/yapengren/crm/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a6af5a62/8ed5cd42-3df2-4d04-9b8e-b90052ddc1a2/cxf_crm.t_customer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.yapengren:send_mail:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.yapengren:send_mail:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.yapengren:send_mail:0.0.1-SNAPSHOT</node>
+            <node x="" y="">junit:junit:jar:3.8.1</node>
+            <node x="" y="">com.yapengren:bos_management_utils:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/commons-beanutils:commons-beanutils:jar:1.8.3</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.guava:guava:jar:r09</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject.extensions:guice-multibindings:jar:3.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE/org.springframework:spring-core:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE/org.springframework:spring-beans:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-orm:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-context:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-aop:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-tx:jar:4.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
+            <node x="" y="">org.apache.activemq:activemq-all:jar:5.2.0</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.24</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:5.0.7.Final</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">redis.clients:jedis:jar:2.6.2</node>
+            <node x="" y="">redis.clients:jedis:jar:2.6.2/org.apache.commons:commons-pool2:jar:2.0</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-tx:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-aop:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-context-support:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-core:jar:4.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.4.1.RELEASE/org.springframework:spring-context:jar:4.0.7.RELEASE</node>
+            <node x="" y="">com.oracle:ojdbc14:jar:10.2.0.1.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi-ooxml-schemas:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi-ooxml-schemas:jar:3.11/org.apache.xmlbeans:xmlbeans:jar:2.6.0</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/xml-resolver:xml-resolver:jar:1.2</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.apache.ws.xmlschema:xmlschema-core:jar:2.1.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1/wsdl4j:wsdl4j:jar:1.6.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-impl:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-core:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1/org.apache.neethi:neethi:jar:3.0.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-transports-http:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/javax.ws.rs:javax.ws.rs-api:jar:2.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-rs-client:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-rs-extension-providers:jar:3.0.1</node>
+            <node x="" y="">org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.1.37</node>
+            <node x="" y="">com.colobu:fastjson-jaxrs-json-provider:jar:0.3.1</node>
+            <node x="" y="">com.colobu:fastjson-jaxrs-json-provider:jar:0.3.1/com.alibaba:fastjson:jar:1.2.7</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="" y="">com.belerweb:pinyin4j:jar:2.5.0</node>
+            <node x="" y="">javax.mail:mail:jar:1.4</node>
+            <node x="" y="">javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.11</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.11/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.1/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.1/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:3.2.9</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.0.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.048974008207934336" x="8607.0" y="3583.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../send_mail/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.yapengren.crm.dao.CustomerDao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.yapengren.crm.dao.CustomerDao</OriginalElement>
+          <nodes>
+            <node x="423.14705882352933" y="255.0">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+            <node x="133.11274509803917" y="255.0">org.springframework.data.repository.PagingAndSortingRepository</node>
+            <node x="205.99999999999997" y="85.0">org.springframework.data.repository.Repository</node>
+            <node x="265.0" y="425.0">com.yapengren.crm.dao.CustomerDao</node>
+            <node x="190.91666666666663" y="170.0">org.springframework.data.repository.CrudRepository</node>
+            <node x="264.0" y="340.0">org.springframework.data.jpa.repository.JpaRepository</node>
+            <node x="0.0" y="85.0">org.springframework.data.repository.NoRepositoryBean</node>
+            <node x="272.5" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="-58.125" y="-17.5" />
+              <point x="283.375" y="320.0" />
+              <point x="57.279411764705856" y="320.0" />
+              <point x="57.279411764705856" y="145.0" />
+              <point x="31.0" y="145.0" />
+              <point x="-62.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="java.io.Serializable">
+              <point x="19.375" y="-17.5" />
+              <point x="360.875" y="310.0" />
+              <point x="412.64705882352933" y="310.0" />
+              <point x="412.64705882352933" y="65.0" />
+              <point x="393.25" y="65.0" />
+              <point x="51.75" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository">
+              <point x="0.0" y="-17.5" />
+              <point x="261.61274509803917" y="230.0" />
+              <point x="272.91666666666663" y="230.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor">
+              <point x="58.125" y="-17.5" />
+              <point x="399.625" y="320.0" />
+              <point x="539.1470588235293" y="320.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="java.io.Serializable">
+              <point x="54.66666666666666" y="-17.5" />
+              <point x="327.58333333333326" y="145.0" />
+              <point x="368.75" y="145.0" />
+              <point x="368.75" y="65.0" />
+              <point x="324.25" y="65.0" />
+              <point x="-17.25" y="17.5" />
+            </edge>
+            <edge source="com.yapengren.crm.dao.CustomerDao" target="org.springframework.data.jpa.repository.JpaRepository">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.PagingAndSortingRepository">
+              <point x="-19.375" y="-17.5" />
+              <point x="322.125" y="310.0" />
+              <point x="261.61274509803917" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="-54.66666666666666" y="-17.5" />
+              <point x="218.24999999999997" y="145.0" />
+              <point x="155.0" y="145.0" />
+              <point x="62.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="java.io.Serializable">
+              <point x="85.66666666666669" y="-17.5" />
+              <point x="347.27941176470586" y="230.0" />
+              <point x="382.25" y="230.0" />
+              <point x="382.25" y="55.0" />
+              <point x="358.75" y="55.0" />
+              <point x="17.25" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="-85.66666666666669" y="-17.5" />
+              <point x="175.94607843137248" y="230.0" />
+              <point x="68.27941176470586" y="230.0" />
+              <point x="68.27941176470586" y="145.0" />
+              <point x="93.0" y="145.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.Repository" target="java.io.Serializable">
+              <point x="0.0" y="-17.5" />
+              <point x="272.0" y="65.0" />
+              <point x="289.75" y="65.0" />
+              <point x="-51.75" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="146.0" y="81.0" />
+          <SelectedNodes>
+            <node>com.yapengren.crm.dao.CustomerDao</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/java/com/yapengren/crm/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crm/src/main/java/com/yapengren/crm/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/java/com/yapengren/bos/action/OrderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/java/com/yapengren/bos/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="161" column="20" lean-forward="true" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bos_fore:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (bos_fore)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40427807" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JRebel|common_parent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40427807" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

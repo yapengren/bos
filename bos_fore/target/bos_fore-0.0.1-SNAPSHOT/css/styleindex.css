@@ -1,0 +1,251 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.index,
+.promotion {
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.grey {
+	color: #999;
+}
+
+
+/*index*/
+
+.index .bannerarea,
+.index .promotion,
+.index .newsarea,
+.index .fresharea {
+	margin-bottom: 25px;
+}
+
+.seekimport {
+	background: #666;
+	color: #fff
+}
+
+.seekimport ul {
+	margin-bottom: 0;
+}
+
+.seekimport ul li {
+	width: 19%;
+	text-align: center;
+}
+
+.seekimport .active {
+	background: #9d9d9d;
+}
+
+.seekimport ul li {
+	padding: 8px;
+}
+
+.seekimport ul p {
+	font-size: 14px;
+}
+
+.promotion {
+	font-size: 14px;
+	color: #333
+}
+
+.areatitle h2 {
+	background: url(../img/icon/line.png) repeat-x center center;
+	margin-bottom: 2px;
+}
+
+.areatitle {
+	margin: 15px 0;
+	overflow: hidden;
+}
+
+.maintitle {
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 0 10px;
+}
+
+.subtitle {
+	font-size: 14px;
+	color: #666;
+}
+
+.promotion .thumbnail {
+	border: none;
+	padding: 0;
+	background: #f2f2f2;
+	border-radius: 0;
+}
+
+.promotion .status span {
+	background: url(../img/icon/clock.png) no-repeat;
+	padding: 2px 0 5px 32px;
+}
+
+.promotion .text-right {
+	padding-right: 10px;
+}
+
+.promotion .more .btn-danger {
+	border-radius: 2px;
+	padding: 6px 41px;
+	background: #df3033;
+	font-size: 16px;
+}
+
+.newsarea,
+.fresharea {
+	font-family: "微软雅黑";
+}
+
+.newsarea {
+	overflow: hidden;
+	margin-top: 15px;
+	background: url(../img/show/suyun/newsbg.png) no-repeat left top;
+	font-size: 12px;
+	background-size: 100% 100%;
+	background-position: 0 0;
+}
+
+.newsarea .newslist {
+	background: #df3033;
+	color: #fff
+}
+
+.newslist .news {
+	width: 62%;
+}
+
+.news ul {
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+}
+
+.news ul li,
+.news h4 {
+	border-bottom: 1px dashed #ee7476
+}
+
+.news h4 {
+	padding: 10px 0;
+	margin-bottom: 5px;
+}
+
+.news .textmore {
+	font-size: 12px;
+	float: right;
+}
+
+.fresh .left,
+.fresh .right {
+	border: 1px solid #dbdbdb;
+	padding: 40px 25px;
+}
+
+.fresh .media-body {
+	vertical-align: middle;
+	padding-left: 20px;
+}
+
+.fresh .left,
+.fresh .right {
+	width: 48%;
+	margin-top: 30px;
+}
+
+.fresh .left {
+	float: left
+}
+
+.fresh .right {
+	float: right
+}
+
+
+/*promotion */
+
+.activitybox {
+	overflow: hidden;
+}
+
+.activitybox .english {
+	float: left
+}
+
+.activitybox .list-inline {
+	float: right
+}
+
+.activitybox .active {
+	background: red;
+	color: #fff
+}
+
+.turnPageButtonArea {
+	text-align: center;
+	margin: 10px 0 30px;
+}
+
+.turnPageButtonArea .pageNum {
+	width: 50px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.promotionall .thumbnail {
+	display: inline-block
+}
+
+.pull-right {
+	float: none!important;
+}
+
+.piecepage {}
+
+.pagination ul {
+	box-shadow: none;
+	left: 40%;
+	position: absolute;
+}
+
+.pagination ul>li {
+	display: inline;
+}
+
+.pagination ul>li>a,
+.pagination ul>li>span {
+	float: left;
+	padding: 0 14px;
+	line-height: 38px;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-left-width: 0;
+}

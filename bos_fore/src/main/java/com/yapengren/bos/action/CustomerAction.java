@@ -1,22 +1,26 @@
 package com.yapengren.bos.action;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
+import com.yapengren.bos.utils.CheckCodeUtils;
+import com.yapengren.bos.utils.action.BaseAction;
+import com.yapengren.crm.service.impl.Customer;
+import com.yapengren.crm.service.impl.CustomerServiceImpl;
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 
-import com.yapengren.bos.utils.CheckCodeUtils;
-import com.yapengren.bos.utils.MailUtils;
-import com.yapengren.bos.utils.action.BaseAction;
-import com.yapengren.crm.service.impl.Customer;
-import com.yapengren.crm.service.impl.CustomerServiceImpl;
+import javax.jms.JMSException;
+import javax.jms.MapMessage;
+import javax.jms.Message;
+import javax.jms.Session;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 @Results({
 	@Result(name="toSuccess", type="redirect", location="/signup-success.html"),
@@ -32,6 +36,9 @@ public class CustomerAction extends BaseAction<Customer> {
 	
 	@Autowired
 	private RedisTemplate rt;
+
+	@Autowired
+    private JmsTemplate jt;
 	
 	//发送验证码的原因
 	private String checkCodeType;
@@ -47,10 +54,8 @@ public class CustomerAction extends BaseAction<Customer> {
 	
 	//登录方式标识
 	private Integer article;
-	
-	
-	
-	/**  
+
+    /**
 	 * @Title: sendCheckCode  
 	 * @Description: TODO 发送注册验证码短信
 	 * @param @return
@@ -151,7 +156,23 @@ public class CustomerAction extends BaseAction<Customer> {
 			String subject = "账号激活";    //邮件主题
 			String activeAddress = "http://localhost:8082/bos_fore/CustomerAction_active.action?activeCode=" + activeCode + "&email=" + model.getEmail();    //激活路径
 			String content = "尊敬的用户您好，请在24小时内点击此链接以完成激活<br><a href='"+activeAddress+"'>"+activeAddress+"</a><br><br>激活遇到问题？ 请联系我们 yapeng0828@163.com";    //邮件内容
-			MailUtils.sendMail(subject, content, model.getEmail());
+			//MailUtils.sendMail(subject, content, model.getEmail());
+
+            //发送消息
+            jt.send("bos_fore.mail", new MessageCreator() {
+
+                @Override
+                public Message createMessage(Session session) throws JMSException {
+
+                    MapMessage message = session.createMapMessage();
+                    message.setString("title", subject);
+
+                    message.setString("content", content);
+
+                    message.setString("to", model.getEmail());
+                    return message;
+                }
+            });
 			
 			//存入redis => 有效1天
 			rt.opsForValue().set(model.getEmail(), activeCode, 1, TimeUnit.DAYS);
