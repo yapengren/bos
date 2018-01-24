@@ -1,18 +1,16 @@
 package com.yapengren.bos.service.base.impl;
 
-import java.util.List;
-
-import javax.annotation.Resource;
-
+import com.yapengren.bos.dao.base.AreaDao;
+import com.yapengren.bos.domain.base.Area;
+import com.yapengren.bos.service.base.AreaService;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.yapengren.bos.dao.base.AreaDao;
-import com.yapengren.bos.domain.base.Area;
-import com.yapengren.bos.service.base.AreaService;
+import java.util.List;
 
 @Service
 @Transactional
@@ -39,6 +37,7 @@ public class AreaServiceImpl implements AreaService {
 	 * @see com.yapengren.service.base.AreaService#findByCondition(java.lang.String)  
 	 */  
 	@Override
+	@RequiresPermissions("develop")
 	public List<Area> findByCondition(String q) {
 		return ad.findByCondition("%" + q.toLowerCase() + "%", "%" + q.toUpperCase() + "%");
 	}

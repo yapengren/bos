@@ -62,12 +62,10 @@
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
 
-    <!-- 开启事务支持 -->
-    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!-- 注解驱动事务开关 => 需要使用cglib 代理 -->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
 
-    <!-- 整合 spring_data_jpa
-                指定dao接口放置在哪个包下
-         -->
+    <!-- 整合 spring_data_jpa => 指定dao接口放置在哪个包下 -->
     <jpa:repositories base-package="com.yapengren.bos.dao"/>
 
     <!-- ======================= -->
@@ -82,4 +80,52 @@
             <ref bean="orderService"/>
         </jaxws:serviceBean>
     </jaxws:server>
+
+    <!--=========================-->
+    <!--shiro配置权限管理器：securityManager-->
+    <bean name="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"></property>
+    </bean>
+
+    <!--shiro配置权限过滤器：shiroFilter-->
+    <bean name="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--注入权限管理器-->
+        <property name="securityManager" ref="securityManager"></property>
+        <!--配置登录页面路径（1类资源）-->
+        <property name="loginUrl" value="/login.html"></property>
+        <!--没有权限的错误提示页面-->
+        <property name="unauthorizedUrl" value="/unauthorizedUrl.jsp"></property>
+        <!--
+            指定 1 | 2 | 3 类资源
+            anon过滤器 => 过滤1类资源
+            perms[courier] => 过滤3类资源
+            /** = authc 除了刚才配置的1类 | 3类资源外的其他路径属于2类资源
+        -->
+        <property name="filterChainDefinitions">
+            <value>
+                /UserAction_login.action = anon
+                /validatecode.jsp* = anon
+                /css/** = anon
+                /js/** = anon
+                /images/** = anon
+                /pages/base/courier.html = perms[develop]
+                /** = authc
+            </value>
+        </property>
+    </bean>
+
+    <!--shiro配置权限通知：shiro Advisor-->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"></property>
+    </bean>
+
+    <!--
+        配置自动织入工具类（springAOP）
+            将该类配置到容器中，该类就会自动从容器中查找Advisor 对象完成自动织入（代理）
+    -->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator">
+        <!--指定默认使用cglib 代理-->
+        <property name="proxyTargetClass" value="true"></property>
+    </bean>
+    <!--=========================-->
 </beans>

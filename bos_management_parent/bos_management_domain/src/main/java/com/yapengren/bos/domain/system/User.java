@@ -1,26 +1,17 @@
 package com.yapengren.bos.domain.system;
 
+import javax.persistence.*;
 import java.io.Serializable;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
 
 /**
  * @description:后台用户
  */
 @Entity
 @Table(name = "T_USER")
-public class User implements Serializable{
+public class  User implements Serializable{
 
 	@Id
 	@GeneratedValue
