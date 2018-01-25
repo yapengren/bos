@@ -15,35 +15,54 @@
 		<script type="text/javascript" src="../../js/easyui/ext/jquery.cookie.js"></script>
 		<script src="../../js/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
 		<script type="text/javascript">
-			var editIndex ;
-			
+
+            //标记当前编辑的行号，如果没有行被编辑，值为null
+			var flag = null;
+
+			/**
+             * 新增一行
+             */
 			function doAdd(){
-				if(editIndex != undefined){
-					$("#grid").datagrid('endEdit',editIndex);
-				}
-				if(editIndex==undefined){
-					//alert("快速添加电子单...");
-					$("#grid").datagrid('insertRow',{
-						index : 0,
-						row : {}
-					});
-					$("#grid").datagrid('beginEdit',0);
-					editIndex = 0;
-				}
+				//判断当前是否有行正在编辑
+                if (flag == null) {
+                    //新增一个空行
+                    $('#grid').datagrid('insertRow', {
+                        index: 0,    //插入行的索引，起始于0
+                        row: {}
+                    });
+                    //对新增的空行开启编辑
+                    $('#grid').datagrid('beginEdit', 0);
+
+                    //标识有行在被编辑
+                    flag = 0;
+                }
 			}
-			
+
+            /**
+             * 保存
+             */
 			function doSave(){
-				$("#grid").datagrid('endEdit',editIndex );
+				$("#grid").datagrid('endEdit', flag);
 			}
-			
+
+            /**
+             * 退出编辑
+             */
 			function doCancel(){
-				if(editIndex!=undefined){
-					$("#grid").datagrid('cancelEdit',editIndex);
-					if($('#grid').datagrid('getRows')[editIndex].id == undefined){
-						$("#grid").datagrid('deleteRow',editIndex);
-					}
-					editIndex = undefined;
-				}
+				//退出编辑
+                $('#grid').datagrid('cancelEdit', flag);
+                //根据行号获取行对象
+                var rows = $('#grid').datagrid('getRows');
+                var row = rows[flag];
+                //判断行对象中的id 值是否为空
+                if (row.id) {
+                    //不为空 => 修改状态下退出编辑 => 保留行，什么也不做
+                } else {
+                    //为空 => 新增状态下退出编辑 => 删除行
+                    $('#grid').datagrid('deleteRow', flag);
+                }
+
+                flag = null;
 			}
 			
 			//工具栏
@@ -68,15 +87,9 @@
 				field : 'id',
 				title : '工作单号',
 				width : 120,
-				align : 'center',
-				editor :{
-					type : 'validatebox',
-					options : {
-						required: true
-					}
-				}
+				align : 'center'
 			}, {
-				field : 'arrivecity',
+				field : 'arriveCity',
 				title : '到达地',
 				width : 120,
 				align : 'center',
@@ -87,7 +100,7 @@
 					}
 				}
 			},{
-				field : 'product',
+				field : 'goodsType',
 				title : '产品',
 				width : 120,
 				align : 'center',
@@ -133,9 +146,6 @@
 			}] ];
 			
 			$(function(){
-				// 先将body隐藏，再显示，不会出现页面刷新效果
-				$("body").css({visibility:"visible"});
-				
 				// 运单数据表格
 				$('#grid').datagrid( {
 					iconCls : 'icon-forward',
@@ -146,27 +156,42 @@
 					pageList: [30,50,100],
 					pagination : true,
 					toolbar : toolbar,
-					url :  "",
+					url : "../../WayBillAction_pageList.action",
 					idField : 'id',
 					columns : columns,
-					onDblClickRow : doDblClickRow,
+					onDblClickRow : doDblClickRow,    //行双击事件
 					onAfterEdit : function(rowIndex, rowData, changes){
-						console.info(rowData);
-						editIndex = undefined;
+						$.post("../../WayBillAction_add.action", rowData, function(id) {
+						    //将后台返回的id 值，更新到表格的id 列中
+                            $('#grid').datagrid('updateRow', {
+                                index: flag,
+                                row: {
+                                    id: id
+                                }
+                            });
+                            //将flag 置为 null
+                            flag = null;
+                        }, "text");
 					}
 				});
 			});
-		
+
+            /**
+             * 双击行
+             * @param rowIndex 被双击的行号
+             * @param rowData 被双击的行对象
+             */
 			function doDblClickRow(rowIndex, rowData){
-				alert("双击表格数据...");
-				console.info(rowIndex);
-				$('#grid').datagrid('beginEdit',rowIndex);
-				editIndex = rowIndex;
+				if (flag == null) {
+				    //对被双击的行开启编辑
+                    $('#grid').datagrid('beginEdit', rowIndex);
+                    flag = rowIndex;
+                }
 			}
 		</script>
 	</head>
 
-	<body class="easyui-layout" style="visibility:hidden;">
+	<body class="easyui-layout">
 		<div region="center" border="false">
 			<table id="grid"></table>
 		</div>
