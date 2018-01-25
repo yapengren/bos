@@ -1,19 +1,9 @@
 package com.yapengren.bos.domain.system;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
 
 /**
  * @description:菜单
@@ -56,6 +46,14 @@ public class Menu implements Serializable{
 		return name;
 	}
 
+	/**
+	 * 增加一个getText方法，用于生成text 属性。json数据需要提供text 属性作为显示
+	 * @return
+	 */
+	public String getText() {
+		return name;
+	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -90,6 +88,10 @@ public class Menu implements Serializable{
 
 	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
+	}
+
+	public Set<Menu> getChildren() {
+		return childrenMenus;
 	}
 
 	public Set<Menu> getChildrenMenus() {

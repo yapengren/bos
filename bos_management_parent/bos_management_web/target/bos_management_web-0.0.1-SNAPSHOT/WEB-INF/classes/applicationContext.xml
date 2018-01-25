@@ -103,12 +103,13 @@
         -->
         <property name="filterChainDefinitions">
             <value>
+                /demo/shiro.jsp = anon
                 /UserAction_login.action = anon
                 /validatecode.jsp* = anon
                 /css/** = anon
                 /js/** = anon
                 /images/** = anon
-                /pages/base/courier.html = perms[develop]
+                /pages/base/courier.html = perms[area]
                 /** = authc
             </value>
         </property>

@@ -17,7 +17,7 @@
 		<script src="../../js/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function(){
-				$("#grid").datagrid({
+				$("#grid").treegrid({
 					toolbar : [
 						{
 							id : 'add',
@@ -28,7 +28,9 @@
 							}
 						}           
 					],
-					url : '',
+					url : '../../MenuAction_list.action',
+					idField: 'id',    //指定哪一列是id 列
+					treeField: 'name',    //指定哪一列用于做展示效果
 					columns : [[
 					  {
 						  field : 'id',

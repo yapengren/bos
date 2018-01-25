@@ -87,65 +87,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WayBillService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/WayBillService.java">
+      <file leaf-file-name="permission.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="792">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permission_add.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission_add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/PermissionAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/impl/PermissionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WayBillServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/impl/WayBillServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WayBillDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/take_delivery/WayBillDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waybill_quick.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/take_delivery/waybill_quick.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="163" column="34" lean-forward="false" selection-start-line="163" selection-start-column="34" selection-end-line="163" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WayBill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/take_delivery/WayBill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WayBillAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/take_delivery/WayBillAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,9 +138,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="jsf" />
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -180,6 +163,11 @@
       <find>product</find>
       <find>prod</find>
       <find>waybillaction_</find>
+      <find>develop</find>
+      <find>admin</find>
+      <find>Menu</find>
+      <find>父菜单</find>
+      <find>description</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -211,18 +199,36 @@
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/unauthorizedUrl.jsp" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/User.java" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/UserDao.java" />
-        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/realm/MyRealm.java" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/system/action/UserAction.java" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/base/impl/AreaServiceImpl.java" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/take_delivery/WayBillDao.java" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/WayBillService.java" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/impl/WayBillServiceImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a8526f8a-3d91-4147-b3df-a254e1330da7/console.sql" />
-        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/take_delivery/waybill_quick.html" />
         <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/take_delivery/WayBillAction.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/base/impl/AreaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/demo/shiro.xhtml" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/demo/shiro.jsp" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/menu.html" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/service/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/MenuDao.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/menu_add.html" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/MenuAction.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/Menu.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/PermissionAction.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/PermissionService.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission.html" />
+        <option value="$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission_add.html" />
       </list>
     </option>
   </component>
@@ -254,37 +260,14 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bos_fore" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bos_fore" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bos_fore" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.shiro:shiro-all:1.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bos_fore" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.shiro:shiro-all:1.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.shiro:shiro-guice:1.2.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="846" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
     <option name="y" value="2" />
-    <option name="width" value="1077" />
+    <option name="width" value="1247" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -381,7 +364,52 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -449,7 +477,7 @@
               <item name="yapengren" type="462c0819:PsiDirectoryNode" />
               <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -461,7 +489,7 @@
               <item name="yapengren" type="462c0819:PsiDirectoryNode" />
               <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -507,7 +535,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -534,7 +562,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.12.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.12.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.12.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.12.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.12.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.12.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.12.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -567,31 +625,36 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/4 就业班上课资料/9、bos项目/bos-day12/resource/t_menu.sql" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle&#10;MySQL" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40427807" />
     <property name="settings.editor.splitter.proportion" value="0.29700273" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="waybillaction&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/take_delivery/WayBillAction.java&#10;waybill&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/take_delivery/WayBill.java&#10;areaaction&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/base/AreaAction.java&#10;findpagebean&#9;PSI&#9;JAVA://com.yapengren.bos.service.base.AreaService#findPageBean&#10;usera&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/system/action/UserAction.java&#10;web&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp/WEB-INF/web.xml&#10;login.html&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_fore/src/main/webapp/login.html" />
+    <property name="SearchEverywhereHistoryKey" value="permission_&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission_add.html&#10;permission.java&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/Permission.java&#10;permission&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission.html&#10;menu.java&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/Menu.java&#10;menuadd&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp/pages/system/menu_add.html&#10;area&#9;PSI&#9;JAVA://com.yapengren.bos.domain.base.Area&#10;menu.html&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp/pages/system/menu.html&#10;myre&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/realm/MyRealm.java&#10;areaservice&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/base/impl/AreaServiceImpl.java&#10;areaservi&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/base/AreaService.java&#10;areaaction&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/base/AreaAction.java&#10;waybillaction&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/take_delivery/WayBillAction.java&#10;waybill&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/take_delivery/WayBill.java&#10;findpagebean&#9;PSI&#9;JAVA://com.yapengren.bos.service.base.AreaService#findPageBean&#10;usera&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/system/action/UserAction.java&#10;web&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp/WEB-INF/web.xml&#10;login.html&#9;FILE&#9;file://D:/Develop/workspace_items1/bos_fore/src/main/webapp/login.html" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.yapengren.bos.dao.system" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yapengren.bos.service.take_delivery.impl" />
-      <recent name="com.yapengren.bos.service.take_delivery" />
-      <recent name="com.yapengren.bos.dao.take_delivery" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Develop\workspace_items1\bos_management_parent\bos_management_domain\src\main\java\com\yapengren\bos\domain\system" />
       <recent name="D:\Develop\workspace_items1\send_mail\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yapengren.bos.dao.system" />
+      <recent name="com.yapengren.bos.service.system.impl" />
+      <recent name="com.yapengren.bos.service.system" />
+      <recent name="com.yapengren.bos.web.action.system" />
+      <recent name="com.yapengren.bos.service.take_delivery.impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yapengren.bos.dao.system" />
+      <recent name="com.yapengren.bos.service.system" />
+      <recent name="com.yapengren.bos.web.action.system" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1023,6 +1086,7 @@
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
@@ -1048,12 +1112,12 @@
       <workItem from="1516725948523" duration="29598000" />
       <workItem from="1516810812273" duration="1500000" />
       <workItem from="1516812529949" duration="625000" />
-      <workItem from="1516813202674" duration="17203000" />
+      <workItem from="1516813202674" duration="32883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113542000" />
+    <option name="totallyTimeSpent" value="129222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1065,37 +1129,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="846" y="2" width="1077" height="1038" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5547619" sideWeight="0.50985026" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45294118" sideWeight="0.49688473" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43571427" sideWeight="0.5046729" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30170158" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4047619" sideWeight="0.49014974" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30941176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206198" sideWeight="0.5083933" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45238096" sideWeight="0.49688473" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206198" sideWeight="0.5083933" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30110934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3670588" sideWeight="0.49014974" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24723618" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26609442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14806867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1170" y="488" width="170" height="47" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24624464" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26555794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13412017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1170" y="488" width="170" height="47" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24087983" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3230036" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38352942" sideWeight="0.49570817" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.41309524" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23095238" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26705882" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32657927" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37187126" sideWeight="0.49123946" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32261905" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.4916067" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738096" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24234904" sideWeight="0.32857144" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612312" sideWeight="0.5053635" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34895313" sideWeight="0.67142856" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23175965" sideWeight="0.3282353" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251073" sideWeight="0.5053635" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23175965" sideWeight="0.67176473" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21543409" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1159,7 +1223,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="5" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1168,304 +1232,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/base/FixedArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="114" column="2" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+        <state relative-caret-position="96">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#2182#2183#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/unauthorizedUrl.jsp">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/base/Standard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#1309#1310#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/base/SubArchive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#1771#1772#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_fore/src/main/webapp/login.html">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/base/TakeTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SPRING/mappedClass=com.yapengren.bos.realm.MyRealm">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SPRING</ID>
-          <OriginalElement>mappedClass=com.yapengren.bos.realm.MyRealm</OriginalElement>
-          <nodes>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_name=(com.yapengren.bos.action) [Component]</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_class=redis.clients.jedis.JedisPoolConfig;bean_name=poolConfig</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_class=org.springframework.data.redis.connection.jedis.JedisConnectionFactory;bean_name=redisConnectionFactory</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_class=org.springframework.data.redis.core.RedisTemplate;bean_name=redisTemplate</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_class=org.springframework.data.redis.serializer.StringRedisSerializer;tag=bean;offset=1817</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_class=org.springframework.data.redis.serializer.StringRedisSerializer;tag=bean;offset=1993</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_name=customerService</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_fore/src/main/resources/applicationContext.xml;bean_name=orderService</node>
-            <node x="" y="">module=bos_management_service;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
-            <node x="" y="">module=bos_management_service;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
-            <node x="" y="">module=bos_management_service;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
-            <node x="" y="">module=bos_management_service;bean_class=javax.servlet.http.HttpSession;bean_name=httpSession</node>
-            <node x="" y="">module=bos_management_service;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
-            <node x="" y="">module=bos_management_service;bean_class=javax.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
-            <node x="" y="">module=bos_management_service;bean_class=javax.servlet.ServletConfig;bean_name=servletConfig</node>
-            <node x="" y="">module=bos_management_service;bean_class=javax.servlet.ServletContext;bean_name=servletContext</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;tag=tx:annotation-driven;offset=2945</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.springframework.orm.jpa.JpaTransactionManager;bean_name=transactionManager</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_name=(com.yapengren) [Component]</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.utils.action.BaseAction;bean_name=baseAction</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.base.impl.FixedAreaServiceImpl;bean_name=fixedAreaServiceImpl</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.base.CourierDao;bean_name=courierDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.base.TakeTimeDao;bean_name=takeTimeDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.base.FixedAreaDao;bean_name=fixedAreaDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.base.impl.AreaServiceImpl;bean_name=areaServiceImpl</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.base.AreaDao;bean_name=areaDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.base.impl.CourierServiceImpl;bean_name=courierServiceImpl</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.base.impl.StandardServiceImpl;bean_name=standardServiceImpl</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.base.StandardDao;bean_name=standardDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.base.impl.SubAreaServiceImpl;bean_name=subAreaServiceImpl</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.base.SubAreaDao;bean_name=subAreaDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.realm.MyRealm;bean_name=MyRealm</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.base.impl.TakeTimeServiceImpl;bean_name=takeTimeServiceImpl</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.service.take_delivery.impl.OrderServiceImpl;bean_name=orderService</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.take_delivery.WorkBillDao;bean_name=workBillDao</node>
-            <node x="" y="">module=bos_management_service;bean_class=com.yapengren.bos.dao.take_delivery.OrderDao;bean_name=orderDao</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_name=(com.yapengren.bos.dao) [JPA]</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=com.mchange.v2.c3p0.ComboPooledDataSource;bean_name=dataSource</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;bean_name=entityManagerFactory</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.hibernate.ejb.HibernatePersistence;tag=bean;offset=1837</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;tag=bean;offset=1967</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.springframework.orm.jpa.vendor.HibernateJpaDialect;tag=bean;offset=2139</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.apache.shiro.web.mgt.DefaultWebSecurityManager;bean_name=securityManager</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.apache.shiro.spring.web.ShiroFilterFactoryBean;bean_name=shiroFilter</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;tag=bean;offset=4867</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;tag=bean;offset=5156</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_name=customerService</node>
-            <node x="" y="">module=bos_management_service;fileset=fileset;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;tag=jaxws:server;offset=3434</node>
-            <node x="" y="">module=bos_management_service;context=D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml;bean_class=com.yapengren.bos.web.base.action.StandardAction;bean_name=standardAction</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.4515380150899594" x="750.0" y="592.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Local context</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.yapengren.bos.realm.MyRealm">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.yapengren.bos.realm.MyRealm</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.shiro.authz.Authorizer</node>
-            <node x="" y="">org.apache.shiro.authc.LogoutAware</node>
-            <node x="" y="">org.apache.shiro.realm.CachingRealm</node>
-            <node x="" y="">org.apache.shiro.util.Nameable</node>
-            <node x="" y="">org.apache.shiro.cache.CacheManagerAware</node>
-            <node x="" y="">com.yapengren.bos.realm.MyRealm</node>
-            <node x="" y="">org.apache.shiro.authz.permission.PermissionResolverAware</node>
-            <node x="" y="">org.apache.shiro.util.Initializable</node>
-            <node x="" y="">org.apache.shiro.authz.permission.RolePermissionResolverAware</node>
-            <node x="" y="">org.apache.shiro.realm.Realm</node>
-            <node x="" y="">org.springframework.stereotype.Service</node>
-            <node x="" y="">org.apache.shiro.realm.AuthorizingRealm</node>
-            <node x="" y="">org.apache.shiro.realm.AuthenticatingRealm</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="466.0" y="188.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/subject/PrincipalCollection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/java/com/yapengren/crm/dao/CustomerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.T_USER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Hierarchy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="355" column="0" lean-forward="false" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6-sources.jar!/org/slf4j/impl/Log4jLoggerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/util/ThreadContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="66" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <element signature="e#2786#2787#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1505#1506#0" expanded="false" />
+            <element signature="e#1527#1528#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/base/Archive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#1741#1742#0" expanded="false" />
+            <element signature="e#1768#1769#0" expanded="false" />
+            <element signature="e#1862#1863#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/demo/shiro.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/base/impl/AreaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="252">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/base/AreaService.java">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/demo/shiro.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/RealmSecurityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.T_COURIER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.T_AREA">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a6af5a62/8ed5cd42-3df2-4d04-9b8e-b90052ddc1a2/cxf_crm.t_customer">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="323" column="19" lean-forward="false" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/subject/Subject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/SecurityUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.4.RELEASE/spring-data-jpa-1.10.4.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,57 +1340,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/UserAction.java">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/service/system/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/MenuDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="223" column="33" lean-forward="true" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
+          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="-132">
+          <caret line="12" column="76" lean-forward="false" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/impl/WayBillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/realm/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.T_MENU">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="298">
+          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/4 就业班上课资料/9、bos项目/bos-day12/resource/t_menu.sql">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/base/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6-sources.jar!/ognl/ObjectMethodAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/js/my.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a8526f8a-3d91-4147-b3df-a254e1330da7/console.sql">
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6-sources.jar!/ognl/ObjectArrayPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="259">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6-sources.jar!/ognl/OgnlException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6-sources.jar!/ognl/MethodFailedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6-sources.jar!/ognl/OgnlRuntime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="1304" column="0" lean-forward="false" selection-start-line="1304" selection-start-column="0" selection-end-line="1304" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.24/xwork-core-2.3.24-sources.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.24/xwork-core-2.3.24-sources.jar!/com/opensymphony/xwork2/util/logging/commons/CommonsLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#2122#2123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-sources.jar!/org/apache/commons/logging/impl/SLF4JLocationAwareLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#2183#2184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6-sources.jar!/org/slf4j/impl/Log4jLoggerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#6254#6255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="733" column="0" lean-forward="false" selection-start-line="733" selection-start-column="0" selection-end-line="733" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/base/AreaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/menu_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1535,94 +1541,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://sequence:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.HIBERNATE_SEQUENCE">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_utils/src/main/java/com/yapengren/bos/utils/action/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.4.RELEASE/spring-data-commons-1.12.4.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crm/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/base/AreaAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/take_delivery/WayBillDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/WayBillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/take_delivery/impl/WayBillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/take_delivery/waybill_quick.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="163" column="34" lean-forward="false" selection-start-line="163" selection-start-column="34" selection-end-line="163" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/take_delivery/WayBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.T_WAY_BILL">
+    <entry file="das://table:/a6af5a62/a8526f8a-3d91-4147-b3df-a254e1330da7/BOS_YAPENGREN.T_PERMISSION">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/take_delivery/WayBillAction.java">
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="792">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/MenuAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_domain/src/main/java/com/yapengren/bos/domain/system/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_dao/src/main/java/com/yapengren/bos/dao/system/PermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_service/src/main/java/com/yapengren/bos/service/system/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/java/com/yapengren/bos/web/action/system/PermissionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/src/main/webapp/pages/system/permission_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,7 +1721,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (send_mail)|Spring</last-edited>
+          <last-edited>JRebel (bos_management_web)|JRebel</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

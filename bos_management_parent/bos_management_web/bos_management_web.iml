@@ -42,7 +42,7 @@
         <option name="remotingEnabled" value="false" />
         <option name="secure" value="true" />
         <option name="url" />
-        <option name="xmlDir" />
+        <option name="xmlDir" value="src/main/resources" />
       </configuration>
     </facet>
   </component>
