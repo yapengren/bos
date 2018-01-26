@@ -13,7 +13,7 @@
 
 	<web>
 		<link target="/">
-			<dir name="D:/Develop/workspace_items1/bos_management_parent/bos_management_web/src/main/webapp">
+			<dir name="D:/Develop/idea_bos/bos_management_parent/bos_management_web/src/main/webapp">
 			</dir>
 		</link>
 	</web>

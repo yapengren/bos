@@ -30,7 +30,7 @@ public class AreaAction extends BaseAction<Area> {
 	
 	//接收名为 xls 的上传文件
 	private File xls;
-	
+
 	//接收文件本来的文件名
 	private String xlsFileName;
 	
@@ -39,8 +39,7 @@ public class AreaAction extends BaseAction<Area> {
 	
 	/**
 	 * @throws IOException 
-	 * @throws FileNotFoundException   
-	 * @Title: upload  
+	 * @Title: upload
 	 * @Description: TODO 导入区域数据
 	 * @param @return
 	 * @return String

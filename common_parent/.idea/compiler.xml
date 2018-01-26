@@ -13,7 +13,6 @@
         <module name="bos_management_utils" />
         <module name="bos_management_web" />
         <module name="crm" />
-        <module name="send_mail" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,7 +25,6 @@
       <module name="bos_management_web" target="1.8" />
       <module name="common_parent" target="1.8" />
       <module name="crm" target="1.8" />
-      <module name="send_mail" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

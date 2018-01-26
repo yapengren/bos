@@ -11,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/../bos_management_parent/bos_management_web/bos_management_web.iml" filepath="$PROJECT_DIR$/../bos_management_parent/bos_management_web/bos_management_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_parent.iml" filepath="$PROJECT_DIR$/common_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crm/crm.iml" filepath="$PROJECT_DIR$/../crm/crm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../send_mail/send_mail.iml" filepath="$PROJECT_DIR$/../send_mail/send_mail.iml" />
     </modules>
   </component>
 </project>
