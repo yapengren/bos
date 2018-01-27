@@ -1,8 +1,7 @@
 package com.yapengren.bos.web.action.system;
 
-import com.yapengren.bos.domain.system.Permission;
 import com.yapengren.bos.domain.system.Role;
-import com.yapengren.bos.service.system.PermissionService;
+import com.yapengren.bos.service.system.RoleService;
 import com.yapengren.bos.utils.action.BaseAction;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;

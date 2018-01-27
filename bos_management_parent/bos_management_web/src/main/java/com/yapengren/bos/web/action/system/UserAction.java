@@ -1,6 +1,7 @@
 package com.yapengren.bos.web.action.system;
 
 import com.yapengren.bos.domain.system.User;
+import com.yapengren.bos.service.system.UserService;
 import com.yapengren.bos.utils.action.BaseAction;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -8,9 +9,15 @@ import org.apache.shiro.subject.Subject;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 @Results({@Result(name = "toIndex", type = "redirect", location = "/index.html")})
 public class UserAction extends BaseAction<User> {
+
+    @Autowired
+    private UserService us;
 
     /**
      * 登录
@@ -29,5 +36,18 @@ public class UserAction extends BaseAction<User> {
 
         //重定向到index.html
         return "toIndex";
+    }
+
+    /**
+     * 查询用户列表
+     * @return
+     */
+    @Action("UserAction_list")
+    public String list() {
+        List<User> list = us.findAll();
+
+        list2Client(list, "roles");
+
+        return null;
     }
 }
