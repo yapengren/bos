@@ -33,7 +33,32 @@ public class Menu implements Serializable{
 	@ManyToOne
 	@JoinColumn(name = "C_PID")
 	private Menu parentMenu;
-	
+
+	//增加一个get方法，用于生成children属性
+	public Set<Menu> getChildren() {
+		return childrenMenus;
+	}
+
+	/**
+	 * 增加一个getText方法，用于生成text 属性。json数据需要提供text 属性作为显示
+	 * @return
+	 */
+	public String getText() {
+		return name;
+	}
+
+	/**
+	 * 增加一个getPid 方法，用于生成pid属性
+	 * @return
+	 */
+	public Integer getPid() {
+		if (parentMenu == null) {
+			return 0;
+		}
+
+		return parentMenu.getId();
+	}
+
 	public Integer getId() {
 		return id;
 	}
@@ -43,14 +68,6 @@ public class Menu implements Serializable{
 	}
 
 	public String getName() {
-		return name;
-	}
-
-	/**
-	 * 增加一个getText方法，用于生成text 属性。json数据需要提供text 属性作为显示
-	 * @return
-	 */
-	public String getText() {
 		return name;
 	}
 
@@ -88,10 +105,6 @@ public class Menu implements Serializable{
 
 	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
-	}
-
-	public Set<Menu> getChildren() {
-		return childrenMenus;
 	}
 
 	public Set<Menu> getChildrenMenus() {

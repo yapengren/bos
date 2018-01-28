@@ -1,8 +1,10 @@
 package com.yapengren.bos.web.action.system;
 
 import com.yapengren.bos.domain.system.Menu;
+import com.yapengren.bos.domain.system.User;
 import com.yapengren.bos.service.system.MenuService;
 import com.yapengren.bos.utils.action.BaseAction;
+import org.apache.shiro.SecurityUtils;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
@@ -45,5 +47,23 @@ public class MenuAction extends BaseAction<Menu> {
         ms.save(model);
         //重定向到菜单列表
         return "toList";
+    }
+
+    /**
+     * 查询当前登录用户的菜单json
+     * @return
+     */
+    @Action("MenuAction_findByLoginUser")
+    public String findByLoginUser() {
+        //获得登录用户
+        User user = (User) SecurityUtils.getSubject().getPrincipal();
+
+        //调用service 根据登录用户查询
+        List<Menu> list = ms.findByLoginUser(user);
+
+        //转换json，发送到浏览器
+        list2Client(list, "roles", "childrenMenus", "parentMenu", "children");
+
+        return null;
     }
 }

@@ -2,6 +2,7 @@ package com.yapengren.bos.service.system.impl;
 
 import com.yapengren.bos.dao.system.MenuDao;
 import com.yapengren.bos.domain.system.Menu;
+import com.yapengren.bos.domain.system.User;
 import com.yapengren.bos.service.system.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,5 +34,17 @@ public class MenuServiceImpl implements MenuService {
     @Override
     public void save(Menu model) {
         md.save(model);
+    }
+
+    /**
+     * 查询登录用户的菜单
+     *
+     * @param user
+     * @return
+     */
+    @Override
+    public List<Menu> findByLoginUser(User user) {
+
+        return md.findByLoginUser(user.getId());
     }
 }

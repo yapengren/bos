@@ -1,5 +1,6 @@
 package com.yapengren.bos.realm;
 
+import com.yapengren.bos.dao.system.PermissionDao;
 import com.yapengren.bos.dao.system.UserDao;
 import com.yapengren.bos.domain.system.User;
 import org.apache.shiro.authc.*;
@@ -10,11 +11,16 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("myRealm")
 public class MyRealm extends AuthorizingRealm {
 
     @Autowired
     private UserDao ud;
+
+    @Autowired
+    private PermissionDao pd;
 
     /**
      * 授权
@@ -28,11 +34,12 @@ public class MyRealm extends AuthorizingRealm {
         User user = (User) paramPrincipalCollection.getPrimaryPrincipal();
 
         //调用dao 查询user的权限
+        List<String> permissionList = pd.findPermissionByLoginUser(user.getId());
 
         //创建授权信息对象，将user 的权限添加到授权信息对象中
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-        info.addStringPermission("develop");    //指定当前认证对象拥有"develop"权限
-        info.addRole("admin");    //指定当前认证对象的角色为 "admin"（用不着）
+        info.addStringPermissions(permissionList);    //指定当前认证对象拥有"develop"权限
+        //info.addRole("admin");    //指定当前认证对象的角色为 "admin"（用不着）
         // info.addStringPermissions(list);    //添加多个权限
 
         return info;

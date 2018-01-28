@@ -32,6 +32,7 @@
 				};
 				
 				// 基本功能菜单加载
+				//./MenuAction_findByLoginUser.action
 				$.post("./data/menu.json",function(data){
 					$.fn.zTree.init($("#treeMenu"), setting, data);
 				},"json");
