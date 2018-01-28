@@ -45,6 +45,21 @@ public class UserAction extends BaseAction<User> {
     }
 
     /**
+     * 登出
+     * @return
+     */
+    @Action("UserAction_logout")
+    public String logout() {
+        //获得Subject
+        Subject subject = SecurityUtils.getSubject();
+
+        //退出登录 => 销毁session
+        subject.logout();
+
+        return "toLogin";
+    }
+
+    /**
      * 查询用户列表
      * @return
      */
