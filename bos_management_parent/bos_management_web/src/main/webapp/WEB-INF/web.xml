@@ -52,6 +52,15 @@
         <filter-name>struts2</filter-name>
         <url-pattern>*.action</url-pattern>
     </filter-mapping>
+
+    <!--出现404状态码，使用notFound.jsp页面显示-->
+    <!--
+    <error-page>
+        <error-code>404</error-code>
+        <location>/notFound.jsp</location>
+    </error-page>
+    -->
+
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
         <welcome-file>index.htm</welcome-file>
