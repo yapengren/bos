@@ -43,5 +43,6 @@ public class UserServiceImpl implements UserService {
         model.getRoles().addAll(roles);
         //保存用户
         ud.save(model);
+
     }
 }
