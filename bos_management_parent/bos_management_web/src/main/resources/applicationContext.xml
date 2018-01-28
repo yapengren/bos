@@ -82,9 +82,18 @@
     </jaxws:server>
 
     <!--=========================-->
+
+    <!--注册缓存管理器对象-->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"></property>
+    </bean>
+
     <!--shiro配置权限管理器：securityManager-->
     <bean name="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="myRealm"></property>
+
+        //注入缓存管理器
+        <property name="cacheManager" ref="cacheManager"></property>
     </bean>
 
     <!--shiro配置权限过滤器：shiroFilter-->
