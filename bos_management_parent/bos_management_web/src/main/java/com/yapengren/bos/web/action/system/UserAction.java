@@ -13,11 +13,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-@Results({@Result(name = "toIndex", type = "redirect", location = "/index.html")})
+@Results({@Result(name = "toIndex", type = "redirect", location = "/index.html"),
+          @Result(name = "toLogin", type = "redirect", location = "/login.html"),
+          @Result(name = "toList", type = "redirect", location = "pages/system/userlist.html")
+})
 public class UserAction extends BaseAction<User> {
 
     @Autowired
     private UserService us;
+
+    //获得角色id
+    private List<Integer> roleIds;
 
     /**
      * 登录
@@ -49,5 +55,23 @@ public class UserAction extends BaseAction<User> {
         list2Client(list, "roles");
 
         return null;
+    }
+
+    /**
+     * 保存用户
+     * @return
+     */
+    @Action("UserAction_add")
+    public String add() {
+        us.save(model, roleIds);
+        return "toList";
+    }
+
+    public List<Integer> getRoleIds() {
+        return roleIds;
+    }
+
+    public void setRoleIds(List<Integer> roleIds) {
+        this.roleIds = roleIds;
     }
 }
