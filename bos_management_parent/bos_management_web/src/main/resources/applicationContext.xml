@@ -68,8 +68,8 @@
     <!-- 整合 spring_data_jpa => 指定dao接口放置在哪个包下 -->
     <jpa:repositories base-package="com.yapengren.bos.dao"/>
 
-    <!-- ======================= -->
 
+    <!-- === webservice start ==================================================================== -->
     <!-- 注册crm webservice客户端 -->
     <jaxws:client id="customerService" address="http://localhost:9090/crm/service/customer"
                   serviceClass="com.yapengren.crm.service.impl.CustomerServiceImpl"></jaxws:client>
@@ -80,9 +80,10 @@
             <ref bean="orderService"/>
         </jaxws:serviceBean>
     </jaxws:server>
+    <!--=== webservice end ========================================================================-->
 
-    <!--=========================-->
 
+    <!--=== EHCache缓存 & shiro start ===============================================================-->
     <!--注册缓存管理器对象-->
     <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
         <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"></property>
@@ -137,5 +138,36 @@
         <!--指定默认使用cglib 代理-->
         <property name="proxyTargetClass" value="true"></property>
     </bean>
-    <!--=========================-->
+    <!--=== EHCache缓存 & shiro end =============================================================================-->
+
+
+    <!--=== quartz定时器 start ===================================================================================-->
+    <!--注册JobDetail 对象，负责通过反射调用自定义的job中的方法-->
+    <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!--注入目标对象-->
+        <property name="targetObject" ref="myJob"/>
+        <!--注入目标方法-->
+        <property name="targetMethod" value="abc"/>
+    </bean>
+
+    <!--注册触发器，指定任务的触发时间-->
+    <bean id="myTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <!--指定任务-->
+        <property name="jobDetail" ref="jobDetail"/>
+        <!--绑定cron表达式-->
+        <property name="cronExpression">
+            <value>* * * ? * * *</value>
+        </property>
+    </bean>
+
+    <!--配置统一的调度工厂-->
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <!--注入触发器，可以有多个-->
+        <property name="triggers">
+            <list>
+                <ref bean="myTrigger"/>
+            </list>
+        </property>
+    </bean>
+    <!--=== quartz定时器 end ===================================================================================-->
 </beans>
