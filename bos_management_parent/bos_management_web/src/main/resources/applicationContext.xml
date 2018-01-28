@@ -93,7 +93,7 @@
     <bean name="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="myRealm"></property>
 
-        //注入缓存管理器
+        <!--注入缓存管理器-->
         <property name="cacheManager" ref="cacheManager"></property>
     </bean>
 
@@ -156,7 +156,7 @@
         <property name="jobDetail" ref="jobDetail"/>
         <!--绑定cron表达式-->
         <property name="cronExpression">
-            <value>* * * ? * * *</value>
+            <value>0 0 0/1 * * ? *</value>
         </property>
     </bean>
 
