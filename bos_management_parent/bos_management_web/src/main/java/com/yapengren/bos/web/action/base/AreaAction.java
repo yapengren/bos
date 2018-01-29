@@ -6,10 +6,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.yapengren.bos.utils.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
@@ -27,14 +29,17 @@ public class AreaAction extends BaseAction<Area> {
 	
 	@Autowired
 	private AreaService as;
-	
-	//接收名为 xls 的上传文件
+	/**
+	 * 接收名为 xls 的上传文件
+	 */
 	private File xls;
-
-	//接收文件本来的文件名
+	/**
+	 * 接收文件本来的文件名
+	 */
 	private String xlsFileName;
-	
-	//接收下拉选项框提示参数
+	/**
+	 * 接收下拉选项框提示参数
+	 */
 	private String q;
 	
 	/**
@@ -138,8 +143,57 @@ public class AreaAction extends BaseAction<Area> {
 		page2Client(pageBean, "subareas");
 		return null;
 	}
-	
-	/**  
+
+	/**
+	 * 导出区域为excel
+	 *
+	 * @return
+	 */
+	@Action("AreaAction_generateXls")
+	public String generateXls() throws IOException {
+		// 内存中创建文档对象
+		HSSFWorkbook wb = new HSSFWorkbook();
+		// 创建表格
+		HSSFSheet sheet = wb.createSheet();
+		// 创建行 => 标题行
+		HSSFRow titleRow = sheet.createRow(0);
+		// 创建单元格，并设置单元格中的内容
+		titleRow.createCell(0).setCellValue("省");
+		titleRow.createCell(1).setCellValue("市");
+		titleRow.createCell(2).setCellValue("区");
+		titleRow.createCell(3).setCellValue("邮编");
+		titleRow.createCell(4).setCellValue("城市简码");
+		titleRow.createCell(5).setCellValue("地区编码");
+		// 取出所有区域数据
+		List<Area> list = as.findPageBean(1, Integer.MAX_VALUE).getContent();
+
+		for (int i = 0; i < list.size(); i++) {
+			// 取出当前遍历的区域对象
+			Area area = list.get(i);
+			// 创建数据行，并将区域数据填入 => 标题行
+			HSSFRow dataRow = sheet.createRow(i + 1);
+			dataRow.createCell(0).setCellValue(area.getProvince());
+			dataRow.createCell(1).setCellValue(area.getCity());
+			dataRow.createCell(2).setCellValue(area.getPostcode());
+			dataRow.createCell(3).setCellValue(area.getPostcode());
+			dataRow.createCell(4).setCellValue(area.getCitycode());
+			dataRow.createCell(5).setCellValue(area.getShortcode());
+		}
+
+		// 注意：指定响应正文内容类型
+		ServletActionContext.getResponse().setContentType("application/vnd.ms-excel");
+		// 注意：指定正文内容作为附件下载
+		ServletActionContext.getResponse().setHeader("Context-Disposition","attachment;filename=" + FileUtils.encodeDownloadFilename("区域数据.xls", ServletActionContext.getRequest()));
+		//
+		ServletActionContext.getResponse().setCharacterEncoding("utf-8");
+
+		// 写到浏览器
+        wb.write(ServletActionContext.getResponse().getOutputStream());
+
+		return null;
+	}
+
+	/**
 	 * @Title: findAll  
 	 * @Description: TODO 区域查询所有
 	 * @param @return

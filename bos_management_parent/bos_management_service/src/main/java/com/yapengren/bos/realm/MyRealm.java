@@ -38,7 +38,7 @@ public class MyRealm extends AuthorizingRealm {
 
         //创建授权信息对象，将user 的权限添加到授权信息对象中
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-        info.addStringPermissions(permissionList);    //指定当前认证对象拥有"develop"权限
+        info.addStringPermissions(permissionList);
         //info.addRole("admin");    //指定当前认证对象的角色为 "admin"（用不着）
         // info.addStringPermissions(list);    //添加多个权限
 

@@ -20,13 +20,11 @@ public class AreaServiceImpl implements AreaService {
     private AreaDao ad;
 
     @Override
-    @RequiresPermissions("area:save")
     public void saveAll(List<Area> list) {
         ad.save(list);
     }
 
     @Override
-    @RequiresPermissions("area:lsit")
     public Page<Area> findPageBean(Integer page, Integer rows) {
         return ad.findAll(new PageRequest(page - 1, rows));
     }
@@ -39,7 +37,6 @@ public class AreaServiceImpl implements AreaService {
      * @see com.yapengren.service.base.AreaService#findByCondition(java.lang.String)
      */
     @Override
-
     public List<Area> findByCondition(String q) {
         return ad.findByCondition("%" + q.toLowerCase() + "%", "%" + q.toUpperCase() + "%");
     }

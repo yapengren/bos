@@ -27,6 +27,11 @@
 			function doDelete(){
 				alert("删除...");
 			}
+
+			function doExportXls() {
+			    alert("导出excel...")
+                window.location.href = "../../AreaAction_generateXls.action";
+            }
 			
 			//工具栏
 			var toolbar = [ {
@@ -48,6 +53,11 @@
 				id : 'button-import',
 				text : '导入',
 				iconCls : 'icon-redo'
+			}, {
+			   	id : 'button-exportXls',
+				text : '导出Excel',
+				iconCls : 'icon_undo',
+				handler : doExportXls
 			}];
 			// 定义列
 			var columns = [ [ {
