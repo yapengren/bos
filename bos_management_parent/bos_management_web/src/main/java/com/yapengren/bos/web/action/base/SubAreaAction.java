@@ -62,4 +62,13 @@ public class SubAreaAction extends BaseAction<SubArea> {
 		
 		return null;
 	}
+
+	@Action("SubAreaAction_findByFixedAreaId")
+	public String findByFixedAreaId() {
+		List<SubArea> list = sas.findByFixedAreaId(model.getFixedArea());
+
+		list2Client(list);
+
+		return null;
+	}
 }

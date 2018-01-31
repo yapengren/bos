@@ -3,7 +3,6 @@ package com.yapengren.bos.service.base.impl;
 import com.yapengren.bos.dao.base.AreaDao;
 import com.yapengren.bos.domain.base.Area;
 import com.yapengren.bos.service.base.AreaService;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

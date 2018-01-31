@@ -119,6 +119,8 @@
                 /css/** = anon
                 /js/** = anon
                 /images/** = anon
+                <!--提供给bos_fore生成webService客户端-->
+                /service/order* = anon
                 <!--/pages/base/courier.html = perms[area]-->
                 /** = authc
             </value>

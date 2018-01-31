@@ -209,13 +209,12 @@
 			});
 
 			function doDblClickRow() {
-				alert("双击表格数据...");
 				$('#association_subarea').datagrid({
 					fit : true,
 					border : true,
 					rownumbers : true,
 					striped : true,
-					url : "../../data/association_subarea.json",
+					url : "../../SubAreaAction_findByFixedAreaId.action",
 					columns : [ [ {
 						field : 'id',
 						title : '分拣编号',

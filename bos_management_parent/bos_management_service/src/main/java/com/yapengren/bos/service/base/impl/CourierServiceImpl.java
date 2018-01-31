@@ -69,4 +69,13 @@ public class CourierServiceImpl implements CourierService {
 		}
 	}
 
+	/**
+	 * 根据id 查询快递员
+	 *
+	 * @param id
+	 */
+	public Courier findById(Integer id) {
+		return cd.findOne(id);
+	}
+
 }
