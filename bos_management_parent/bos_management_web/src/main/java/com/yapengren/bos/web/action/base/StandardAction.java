@@ -53,7 +53,7 @@ public class StandardAction extends ActionSupport implements ModelDriven<Standar
 	 * @param @return
 	 * @return String
 	 * @throws  
-	 */  
+	 */
 	@Action("StandardAction_add")
 	public String add() {
 		ss.save(standard);
