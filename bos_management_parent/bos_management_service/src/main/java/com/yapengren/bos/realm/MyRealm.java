@@ -24,6 +24,7 @@ public class MyRealm extends AuthorizingRealm {
 
     /**
      * 授权
+     *
      * @param paramPrincipalCollection
      * @return
      */
@@ -47,6 +48,7 @@ public class MyRealm extends AuthorizingRealm {
 
     /**
      * 认证
+     *
      * @param paramAuthenticationToken
      * @return
      * @throws AuthenticationException

@@ -19,12 +19,15 @@
     <!-- 开启包扫描 -->
     <context:component-scan base-package="com.yapengren"></context:component-scan>
 
+    <!--加载配置文件-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
     <!-- 配置连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver"/>
-        <property name="jdbcUrl" value="jdbc:oracle:thin:@192.168.129.129:1521:ORCL"/>
-        <property name="user" value="bos_yapengren"/>
-        <property name="password" value="root"/>
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
     </bean>
 
     <!-- spring整合JPA -->

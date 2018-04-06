@@ -150,7 +150,7 @@ public class CustomerAction extends BaseAction<Customer> {
 			
 			//发送激活邮件
 			String subject = "账号激活";    //邮件主题
-			String activeAddress = "http://localhost:8082/bos_fore/CustomerAction_active.action?activeCode=" + activeCode + "&email=" + model.getEmail();    //激活路径
+			String activeAddress = "http://localhost:9091/bos_fore/CustomerAction_active.action?activeCode=" + activeCode + "&email=" + model.getEmail();    //激活路径
 			String content = "尊敬的用户您好，请在24小时内点击此链接以完成激活<br><a href='"+activeAddress+"'>"+activeAddress+"</a><br><br>激活遇到问题？ 请联系我们 yapeng0828@163.com";    //邮件内容
 			MailUtils.sendMail(subject, content, model.getEmail());
 
