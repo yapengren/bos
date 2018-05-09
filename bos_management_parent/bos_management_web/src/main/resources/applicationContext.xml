@@ -74,7 +74,7 @@
 
     <!-- === webservice start ==================================================================== -->
     <!-- 注册crm webservice客户端 -->
-    <jaxws:client id="customerService" address="http://localhost:9090/crm/service/customer"
+    <jaxws:client id="customerService" address="http://localhost:8111/crm/service/customer"
                   serviceClass="com.yapengren.crm.service.impl.CustomerServiceImpl"></jaxws:client>
 
     <!-- 配置ws 服务 -->

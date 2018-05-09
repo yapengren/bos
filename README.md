@@ -52,22 +52,22 @@ common_parent -- 父工程，统一管理依赖
 #### 启动准备（后台）
 
 修改 Host
-- 192.168.129.129 oracleserver
-- 127.0.0.1 mysqlserver
-- 127.0.0.1 rdserver
+- 192.168.129.129 bos-oracleServer
+- 127.0.0.1 bos-mysqlServer
+- 127.0.0.1 bos-redisServer
 
 
 1. 【短信服务】修改 bos_fore 项目 com.yapengren.bos.action.CustomerAction.java => sendCheckCode() 搜索测试，将发短信功能打开
 2. 【cxf配置】bos_fore 项目和 bos_management 项目配置了cxf 客户端，需要修改ip地址
 3. 【地址配置】bos_fore 项目 CustomerAction.java => regist 发送激活邮件存放着激活路径
-4. 【】bos_management项目端口为8080 crm项目端口为9090 bos_fore项目端口随意
+4. 【】bos_management项目端口为8110 crm项目端口为8111 bos_fore项目端口为8112
 5. 【Oracle数据库】 bos 项目使用 Oracle 数据库，使用用户 bos_yapengren
 6. 【Mysql数据库】 crm 项目使用 Mysql 数据库
 
 crm => bos-management-web => bos-fore
 
-后台主页 http://localhost:8080/bos_management_web
-前台主页 http://localhost:9091/bos_fore/
+后台主页 http://localhost:8110/bos_management_web
+前台主页 http://localhost:8112/bos_fore/
 
 #### 常见问题
 

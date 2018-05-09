@@ -27,7 +27,7 @@
 	<bean id="redisConnectionFactory"
         class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
        	<!-- redis服务器路径 -->
-        <property name="hostName" value="rdserver"/>
+        <property name="hostName" value="bos-redisServer"/>
         <!-- redis服务器端口号 -->
         <property name="port" value="6379"/>
         <!-- 指定连接池配置 -->
@@ -51,11 +51,11 @@
 
 	<!-- ======================= -->
     <!--配置 crm 客户端：crm =》 bos-fore-->
-	<jaxws:client id="customerService" address="http://localhost:9090/crm/service/customer"
+	<jaxws:client id="customerService" address="http://localhost:8111/crm/service/customer"
 		serviceClass="com.yapengren.crm.service.impl.CustomerServiceImpl"></jaxws:client>
 
     <!--配置 bos-management 客户端：bos-management=》 bos-fore-->
-	<jaxws:client id="orderService" address="http://localhost:8080/bos_management_web/service/order"
+	<jaxws:client id="orderService" address="http://localhost:8110/bos_management_web/service/order"
 		serviceClass="com.yapengren.bos.service.take_delivery.impl.OrderServiceImpl"></jaxws:client>
 	<!-- ======================= -->
 

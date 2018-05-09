@@ -9,7 +9,6 @@
   <artifactId>bos_management_parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>bos父工程</name>
   <modules>
   	<module>bos_management_web</module>
   	<module>bos_management_service</module>

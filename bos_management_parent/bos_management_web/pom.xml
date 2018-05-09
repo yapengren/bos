@@ -8,7 +8,6 @@
     </parent>
     <artifactId>bos_management_web</artifactId>
     <packaging>war</packaging>
-    <name>web项目</name>
     <dependencies>
         <dependency>
             <groupId>com.yapengren</groupId>
@@ -25,7 +24,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <path>/bos_management_web</path>
-                    <port>8080</port>
+                    <port>8110</port>
                 </configuration>
             </plugin>
         </plugins>
